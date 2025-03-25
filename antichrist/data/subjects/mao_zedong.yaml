@@ -1,0 +1,84 @@
+# Mao Zedong analysis for Antichrist prophecies
+---
+name: "Mao Zedong"
+title: "Chairman of the Chinese Communist Party"
+time_period: "1949-1976"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.8  # Revolutionary conquest of China
+  rev_6_6: 0.9  # Great Leap Forward caused massive famine
+  rev_8_10: 0.5  # No major pandemic but many died from disease
+  rev_13_1_2: 0.9  # Threatening rhetoric and authoritarian control
+  rev_13_3: 0.0  # No head wound survival
+  rev_13_4: 0.9  # Extreme cult of personality, "Mao worship"
+  rev_13_5_6: 0.9  # Explicitly anti-religious, "religion is poison"
+  rev_13_7: 0.7  # Control over world's most populous nation
+  rev_13_8: 0.9  # Extreme worship by followers, "Little Red Book"
+  rev_13_11_12: 0.3  # Anti-religious, no religious leader support
+  rev_13_13_15: 0.7  # Propaganda including "miracles" attributed to Mao
+  rev_13_16_17: 0.8  # Mao badges worn by followers, uniform clothing
+  rev_13_18: 0.2  # No strong 666 connections claimed
+  rev_16_13_14: 0.6  # Influence over communist world leaders
+  rev_17_3: 0.2  # No connection to seven hills/towers
+  rev_17_8: 0.6  # Rise through revolutionary leadership
+  rev_17_9_11: 0.1  # Not associated with seven mountains
+  rev_17_12_13: 0.7  # Support from Communist Party leadership
+  rev_17_15: 0.6  # China has many ethnic groups and languages
+  rev_17_16_17: 0.9  # Violently opposed religious institutions
+  rev_19_19_20: 0.0  # Died of natural causes
+  
+  # Daniel prophecies
+  dan_7_8: 0.9  # Extremely boastful speeches
+  dan_7_20: 0.9  # Rhetoric about Chinese greatness
+  dan_7_23: 0.6  # China became a major power under him
+  dan_7_24: 0.7  # Rose among revolutionary leaders
+  dan_7_25: 0.9  # Cultural Revolution completely changed laws/customs
+  dan_8_23: 0.8  # Strategic and ruthless leadership
+  dan_8_25: 0.8  # Deceptive practices against political opponents
+  dan_9_26_27: 0.2  # Limited connection to Israel
+  dan_11_14: 0.8  # Led violent revolution to take power
+  dan_11_16_18: 0.1  # No involvement in Israel
+  dan_11_21: 0.7  # Rose from peasant background to absolute ruler
+  dan_11_23: 0.7  # Communist revolution started with small forces
+  dan_11_24: 0.9  # Massive wealth redistribution
+  dan_11_28: 0.8  # Forced relocations during various campaigns
+  dan_11_29_33: 0.9  # Destroyed religious buildings during Cultural Revolution
+  dan_11_32: 0.6  # Some resistance to his rule
+  dan_11_33: 0.7  # Many intellectuals persecuted
+  dan_11_36: 0.9  # Extreme self-exaltation as "Great Helmsman"
+  dan_11_37: 0.9  # Rejected all religions, promoted atheism
+  dan_11_39: 0.9  # Rewarded loyal Communist Party members
+  dan_11_40: 0.7  # Border conflicts with neighbors
+  dan_11_44: 0.8  # Paranoia about internal threats led to purges
+  dan_12_7: 0.1  # Suppressed Christianity in China
+  
+  # Other prophecies
+  2thess_2_3_4: 0.9  # Exalted himself above religion
+  2thess_2_9_10: 0.7  # Revolutionary rise to power
+  1john_2_18: 0.5  # General positioning in modern era
+  1john_2_22: 0.9  # Explicitly rejected religious belief
+  1john_4_3: 0.9  # Explicitly rejected religious belief
+  2john_1_7: 0.7  # Deceptive propaganda
+  matt_24_24: 0.3  # Anti-religious, not supported by Christians
+  matt_24_40_41: 0.8  # Mass relocations during campaigns
+  zech_11_16_17: 0.9  # Great Leap Forward led to 30+ million deaths
+  acts_2_17: 0.3  # No unusual dream phenomena reported
+
+# Evidence examples for key prophecies
+evidence:
+  rev_13_4: "Cult of personality included daily recitation of Mao quotes and statements like 'Chairman Mao is the red sun in our hearts'"
+  rev_13_8: "Literally worshipped by millions, his Little Red Book became second only to the Bible in global circulation"
+  dan_7_25: "Cultural Revolution (1966-1976) radically altered Chinese society, attacked traditional culture"
+  rev_6_6: "Great Leap Forward (1958-1962) caused the largest famine in human history, killing 30+ million"
+  dan_11_29_33: "Red Guards destroyed thousands of temples, churches, and religious artifacts during Cultural Revolution"
+  zech_11_16_17: "Continued harmful economic policies despite awareness of mass starvation"
+  rev_13_16_17: "Hundreds of millions wore Mao badges featuring his image as identification with the revolution"
+  dan_11_36: "Declared himself the 'Great Helmsman' and 'Savior of the People'"

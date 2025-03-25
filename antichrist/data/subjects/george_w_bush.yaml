@@ -1,0 +1,84 @@
+# George W. Bush analysis for Antichrist prophecies
+---
+name: "George W. Bush"
+title: "43rd President of the United States"
+time_period: "2001-2009"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.7  # "War on Terror" after 9/11 focused on conquering
+  rev_6_6: 0.6  # Economic recession at end of presidency
+  rev_8_10: 0.4  # SARS was during his presidency but limited impact
+  rev_13_1_2: 0.7  # Strong rhetoric after 9/11, "Axis of Evil"
+  rev_13_3: 0.1  # Survived shoe-throwing incident, not a head wound
+  rev_13_4: 0.5  # Strong support especially after 9/11
+  rev_13_5_6: 0.4  # Some religious rhetoric but usually respectful
+  rev_13_7: 0.7  # US global influence especially military
+  rev_13_8: 0.5  # Strong support but not worship
+  rev_13_11_12: 0.7  # Strong evangelical support
+  rev_13_13_15: 0.6  # Claims of divine selection by some supporters
+  rev_13_16_17: 0.4  # Flag pins and patriotic symbolism
+  rev_13_18: 0.3  # Some numerological connections claimed
+  rev_16_13_14: 0.7  # "Coalition of the willing" for Iraq War
+  rev_17_3: 0.2  # No strong connection to seven buildings
+  rev_17_8: 0.5  # Not as dramatic a rise
+  rev_17_9_11: 0.3  # Not associated with seven mountains
+  rev_17_12_13: 0.7  # Strong cabinet and international coalition support
+  rev_17_15: 0.7  # From multicultural America (Texas)
+  rev_17_16_17: 0.3  # Strong religious institution support
+  rev_19_19_20: 0.0  # Not defeated in this manner
+  
+  # Daniel prophecies
+  dan_7_8: 0.6  # Some boastful speech, "Mission Accomplished"
+  dan_7_20: 0.6  # References to American greatness
+  dan_7_23: 0.8  # US as military superpower, Iraq/Afghanistan wars
+  dan_7_24: 0.4  # Son of former president, established political background
+  dan_7_25: 0.7  # PATRIOT Act, surveillance expansion
+  dan_8_23: 0.6  # Political strategy, "Bush Doctrine"
+  dan_8_25: 0.7  # WMD claims in Iraq that weren't found
+  dan_9_26_27: 0.7  # Strong alliance with Israel, Middle East focus
+  dan_11_14: 0.5  # Some supporter actions, not rebellion
+  dan_11_16_18: 0.8  # Heavy involvement in Israel/Palestine issues
+  dan_11_21: 0.4  # Political insider as son of former president
+  dan_11_23: 0.6  # Controversial 2000 election win
+  dan_11_24: 0.6  # Tax cuts benefiting wealthy
+  dan_11_28: 0.6  # Some immigration policies affecting migrants
+  dan_11_29_33: 0.5  # Some questionable uses of military force
+  dan_11_32: 0.6  # Anti-war movement resistance
+  dan_11_33: 0.6  # Major protests during Iraq War
+  dan_11_36: 0.5  # Some claims about divine mission
+  dan_11_37: 0.3  # Strong Christian identification
+  dan_11_39: 0.7  # Rewarded loyal supporters with positions
+  dan_11_40: 0.7  # Border tensions with Mexico
+  dan_11_44: 0.6  # Concerns about North Korea, Iran ("Axis of Evil")
+  dan_12_7: 0.7  # Strong Christian political power during presidency
+  
+  # Other prophecies
+  2thess_2_3_4: 0.5  # Some claims about divine mission in Middle East
+  2thess_2_9_10: 0.6  # Controversial 2000 election win
+  1john_2_18: 0.5  # Post-9/11 apocalyptic fears
+  1john_2_22: 0.3  # Professed Christian faith
+  1john_4_3: 0.3  # Professed Christian faith
+  2john_1_7: 0.6  # Accusations about WMD deception
+  matt_24_24: 0.7  # Strong Christian support despite controversies
+  matt_24_40_41: 0.4  # Some worker displacement policies
+  zech_11_16_17: 0.6  # Criticized for Katrina response
+  acts_2_17: 0.4  # Post-9/11 anxiety dreams
+
+# Evidence examples for key prophecies
+evidence:
+  dan_7_23: "Launched Iraq and Afghanistan wars, demonstrated US military might"
+  dan_8_25: "Claims about weapons of mass destruction in Iraq that were never found"
+  dan_9_26_27: "Strong alliance with Israel during Second Intifada"
+  dan_11_16_18: "Heavily involved in Israel-Palestine issues with Road Map for Peace"
+  rev_13_1_2: "Used threatening 'Axis of Evil' rhetoric after 9/11"
+  rev_13_11_12: "Strong evangelical leader support claiming divine appointment"
+  zech_11_16_17: "Criticized for slow response to Hurricane Katrina victims"
+  dan_7_25: "Implemented PATRIOT Act changing surveillance laws"

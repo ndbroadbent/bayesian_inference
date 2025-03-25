@@ -1,0 +1,81 @@
+# Other prophecies about the Antichrist from different books of the Bible
+---
+- id: 2thess_2_3_4
+  reference: "2 Thessalonians 2:3-4"
+  text: "Let no one deceive you in any way. For that day will not come, unless the rebellion comes first, and the man of lawlessness is revealed, the son of destruction, who opposes and exalts himself against every so-called god or object of worship, so that he takes his seat in the temple of God, proclaiming himself to be God."
+  description: "The Antichrist will exalt himself above all gods and religious worship, proclaiming himself to be God"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they exalt themselves above God
+    P_notH: 0.1  # If someone is NOT the Antichrist, 10% chance they exalt themselves above God
+
+- id: 2thess_2_9_10
+  reference: "2 Thessalonians 2:9-10"
+  text: "The coming of the lawless one is by the activity of Satan with all power and false signs and wonders, and with all wicked deception for those who are perishing, because they refused to love the truth and so be saved."
+  description: "The Antichrist will use counterfeit miracles, signs, and wonders to deceive people who reject truth"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they use counterfeit miracles
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they use counterfeit miracles
+
+- id: 1john_2_18
+  reference: "1 John 2:18"
+  text: "Children, it is the last hour, and as you have heard that antichrist is coming, so now many antichrists have come. Therefore we know that it is the last hour."
+  description: "There will be many antichrists, with one final Antichrist coming at the end"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they come in the last days
+    P_notH: 0.4  # If someone is NOT the Antichrist, 40% chance they come in the last days
+
+- id: 1john_2_22
+  reference: "1 John 2:22"
+  text: "Who is the liar but he who denies that Jesus is the Christ? This is the antichrist, he who denies the Father and the Son."
+  description: "The Antichrist will deny the Father and the Son"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they deny Christ
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they deny Christ
+
+- id: 1john_4_3
+  reference: "1 John 4:3"
+  text: "And every spirit that does not confess Jesus is not from God. This is the spirit of the antichrist, which you heard was coming and now is in the world already."
+  description: "The Antichrist will not acknowledge Jesus as coming in the flesh"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they don't acknowledge Jesus
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they don't acknowledge Jesus
+
+- id: 2john_1_7
+  reference: "2 John 1:7"
+  text: "For many deceivers have gone out into the world, those who do not confess the coming of Jesus Christ in the flesh. Such a one is the deceiver and the antichrist."
+  description: "The Antichrist will be a deceiver who denies Jesus came in the flesh"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they're a deceiver who denies Jesus
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they're a deceiver who denies Jesus
+
+- id: matt_24_24
+  reference: "Matthew 24:24"
+  text: "For false christs and false prophets will arise and perform great signs and wonders, so as to lead astray, if possible, even the elect."
+  description: "The Antichrist will perform signs and wonders that could deceive even Christians"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they deceive even Christians
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they deceive even Christians
+
+- id: matt_24_40_41
+  reference: "Matthew 24:40-41"
+  text: "Then two men will be in the field; one will be taken and one left. Two women will be grinding at the mill; one will be taken and one left."
+  description: "During the Antichrist's rule, there will be a mass disappearance of workers"
+  bayesian:
+    P_H: 0.7  # If someone is the Antichrist, 70% chance there's mass disappearance of workers
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance there's mass disappearance of workers
+
+- id: zech_11_16_17
+  reference: "Zechariah 11:16-17"
+  text: "For behold, I am raising up in the land a shepherd who does not care for those being destroyed, or seek the young or heal the maimed or nourish the healthy, but devours the flesh of the fat ones, tearing off even their hoofs. Woe to my worthless shepherd, who deserts the flock! May the sword strike his arm and his right eye! Let his arm be wholly withered, his right eye utterly blinded!"
+  description: "The Antichrist will not help the vulnerable or care for those in need"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they neglect the vulnerable
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they neglect the vulnerable
+
+- id: acts_2_17
+  reference: "Acts 2:17"
+  text: "And in the last days it shall be, God declares, that I will pour out my Spirit on all flesh, and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams."
+  description: "During the rule of the Antichrist, people will begin having strange and vivid dreams"
+  bayesian:
+    P_H: 0.7  # If someone is the Antichrist, 70% chance people have strange dreams
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance people have strange dreams

@@ -1,0 +1,84 @@
+# Donald Trump analysis for Antichrist prophecies
+---
+name: "Donald Trump"
+title: "45th President of the United States"
+time_period: "2016-2020"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.8  # Campaign and rhetoric focused on "winning"
+  rev_6_6: 0.7  # Food supply chain issues during pandemic while oil prices crashed
+  rev_8_10: 0.7  # COVID-19 pandemic during presidency
+  rev_13_1_2: 0.8  # US power and threatening rhetoric
+  rev_13_3: 0.99  # Survived assassination attempt with gunshot to head/ear - extraordinary fulfillment
+  rev_13_4: 0.7  # Strong devoted following
+  rev_13_5_6: 0.8  # Boastful speech and religious claims
+  rev_13_7: 0.6  # US global influence
+  rev_13_8: 0.6  # Strong supporter devotion
+  rev_13_11_12: 0.8  # Evangelical leaders supporting him
+  rev_13_13_15: 0.4  # Some claims of miracles by supporters
+  rev_13_16_17: 0.8  # MAGA hats as identifiable mark
+  rev_13_18: 0.3  # Tenuous numerological connections
+  rev_16_13_14: 0.5  # Some influence over world leaders
+  rev_17_3: 0.8  # Seven Trump Towers/buildings
+  rev_17_8: 0.7  # Political comeback after defeat
+  rev_17_9_11: 0.6  # Connection to towers/buildings, not hills
+  rev_17_12_13: 0.6  # Support from political figures
+  rev_17_15: 0.7  # From multicultural New York
+  rev_17_16_17: 0.5  # Some conflicts with religious institutions
+  rev_19_19_20: 0.0  # Not defeated in this manner
+  
+  # Daniel prophecies
+  dan_7_8: 0.8  # Boastful speech
+  dan_7_20: 0.9  # "Great" and "Greater" rhetoric (MAGA)
+  dan_7_23: 0.8  # US as military superpower
+  dan_7_24: 0.3  # Political rise not matching prophecy
+  dan_7_25: 0.7  # Attempted to change election timing/laws
+  dan_8_23: 0.6  # Political strategy
+  dan_8_25: 0.8  # "Fake news" rhetoric
+  dan_9_26_27: 0.6  # Support for controversial Israeli actions
+  dan_11_14: 0.9  # January 6th insurrection
+  dan_11_16_18: 0.6  # Interest in Israel coastal regions
+  dan_11_21: 0.8  # Political outsider with unexpected win
+  dan_11_23: 0.6  # Won with minority of popular vote
+  dan_11_24: 0.7  # Business profits during presidency
+  dan_11_28: 0.7  # Border policies affecting migrants
+  dan_11_29_33: 0.8  # Church photo op after clearing protesters
+  dan_11_32: 0.7  # "Resistance" movement formed
+  dan_11_33: 0.7  # Protests during presidency
+  dan_11_36: 0.7  # Self-exaltation in rhetoric
+  dan_11_37: 0.4  # Ambiguous religious attitudes
+  dan_11_39: 0.7  # Appointed supporters to positions
+  dan_11_40: 0.8  # Conflict with Mexico over border
+  dan_11_44: 0.8  # Anger at negative media reports
+  dan_12_7: 0.7  # Evangelical political power during presidency
+  
+  # Other prophecies
+  2thess_2_3_4: 0.6  # Some self-exaltation
+  2thess_2_9_10: 0.5  # Surprising political rise
+  1john_2_18: 0.5  # General antichrist characteristics
+  1john_2_22: 0.4  # Professed Christianity
+  1john_4_3: 0.4  # Professed Christianity
+  2john_1_7: 0.5  # Accusations of deception
+  matt_24_24: 0.7  # Strong Christian support despite controversies
+  matt_24_40_41: 0.6  # ICE deportations of workers
+  zech_11_16_17: 0.7  # COVID response prioritizing economy
+  acts_2_17: 0.6  # Reports of vivid dreams during pandemic
+
+# Evidence examples for key prophecies
+evidence:
+  rev_13_3: "Survived assassination attempt on July 13, 2024 with a bullet wound to his ear/head"
+  rev_13_5_6: "Claimed 'nobody has done more for Christianity or for evangelicals' than him; used God's name inappropriately"
+  dan_7_20: "Make America Great Again slogan directly references greatness"
+  dan_11_21: "First US president with no prior political or military experience"
+  dan_11_14: "January 6, 2021 Capitol insurrection by supporters"
+  dan_11_29_33: "June 1, 2020 clearing of protesters at Lafayette Square for Bible photo op"
+  rev_13_16_17: "MAGA hats worn prominently on foreheads by followers"
+  rev_17_3: "Trump Tower (NY), Trump International Hotel & Tower (Chicago), Trump World Tower, Trump Tower (White Plains), Trump Parc, Trump Park Avenue, and Trump Palace Condominiums"

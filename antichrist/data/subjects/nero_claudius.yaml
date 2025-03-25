@@ -1,0 +1,83 @@
+# Nero analysis for Antichrist prophecies
+---
+name: "Nero"
+title: "Roman Emperor"
+time_period: "54-68 CE"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.7  # Military conquests as Roman Emperor
+  rev_6_6: 0.6  # Economic control and some famines during reign
+  rev_8_10: 0.0  # No major pandemic during reign
+  rev_13_1_2: 0.8  # Imperial power and threatening rhetoric
+  rev_13_3: 0.4  # Died (suicide) but rumors about his return circulated (Nero Redivivus legend) - not an actual survival
+  rev_13_4: 0.8  # Worshipped as divine emperor
+  rev_13_5_6: 0.9  # Blasphemous speech against gods/God
+  rev_13_7: 0.9  # Authority over Roman Empire
+  rev_13_8: 0.8  # Worshipped throughout empire
+  rev_13_11_12: 0.7  # Imperial cult supporting his worship
+  rev_13_13_15: 0.6  # Used spectacle and theater, no actual miracles
+  rev_13_16_17: 0.7  # Roman currency with his image required for commerce
+  rev_13_18: 0.99  # Name "Nero Caesar" in Hebrew numerology equals 666 - extraordinary fulfillment
+  rev_16_13_14: 0.7  # Influenced client kings
+  rev_17_3: 0.9  # Rome built on seven hills
+  rev_17_8: 0.5  # Death and rumors of return, but didn't actually return
+  rev_17_9_11: 0.9  # Rome's seven hills, fifth emperor of Julio-Claudian dynasty
+  rev_17_12_13: 0.8  # Support from Roman governors and client kings
+  rev_17_15: 0.9  # Rome as multicultural center
+  rev_17_16_17: 0.9  # Persecuted religious institutions
+  rev_19_19_20: 0.1  # Committed suicide, not captured and thrown alive into fire
+  
+  # Daniel prophecies
+  dan_7_8: 0.8  # Boastful speech
+  dan_7_20: 0.7  # Self-glorification
+  dan_7_23: 0.9  # Rome as world superpower
+  dan_7_24: 0.8  # Fifth emperor after Julius Caesar
+  dan_7_25: 0.7  # Changed Roman calendar and laws
+  dan_8_23: 0.8  # Political intrigue
+  dan_8_25: 0.8  # Deception and treachery
+  dan_9_26_27: 0.8  # Roman forces began Jewish War that led to Temple destruction
+  dan_11_14: 0.6  # Various rebellions during reign
+  dan_11_16_18: 0.8  # Roman focus on Judea and coastal regions
+  dan_11_21: 0.6  # Unexpected rise (adopted by Claudius)
+  dan_11_23: 0.7  # Allied with small faction to secure power
+  dan_11_24: 0.9  # Extravagant spending and wealth distribution to followers
+  dan_11_28: 0.9  # Persecution of Jews and Christians
+  dan_11_29_33: 0.5  # No direct parallel to described event
+  dan_11_32: 0.8  # Christian resistance to Nero
+  dan_11_33: 0.9  # Persecution of Christians by fire and sword
+  dan_11_36: 0.9  # Self-exaltation as divine
+  dan_11_37: 0.8  # Rejected traditional Roman religious values
+  dan_11_39: 0.8  # Rewarded loyalists with positions
+  dan_11_40: 0.6  # Some conflicts with nations to the south
+  dan_11_44: 0.7  # Enraged by reports of rebellions
+  dan_12_7: 0.2  # No parallel to Christian power
+  
+  # Other prophecies
+  2thess_2_3_4: 0.9  # Self-exaltation as divine
+  2thess_2_9_10: 0.6  # Claims of special abilities, but no actual miracles
+  1john_2_18: 0.8  # Historical candidate for Antichrist
+  1john_2_22: 0.9  # Denied Christ, persecuted Christians
+  1john_4_3: 0.9  # Actively persecuted Christians who confessed Jesus
+  2john_1_7: 0.8  # Deception about his divinity
+  matt_24_24: 0.6  # Attempted to deceive with displays
+  matt_24_40_41: 0.2  # No specific parallel
+  zech_11_16_17: 0.7  # Neglected vulnerable during Great Fire of Rome
+  acts_2_17: 0.0  # No specific dream phenomena reported
+
+# Evidence examples for key prophecies
+evidence:
+  rev_13_3: "After his suicide, rumors circulated that he would return from death (Nero Redivivus legend) - however, he did not actually survive a fatal wound"
+  rev_13_18: "Hebrew gematria of 'Nero Caesar' equals 666, earliest interpretation of the number"
+  rev_17_9_11: "Rome was built on seven hills; Nero was the fifth emperor of Julio-Claudian dynasty"
+  dan_11_33: "Used Christians as human torches to light his garden parties; crucified and fed to wild animals"
+  dan_9_26_27: "Roman forces under his reign began the Jewish War that led to Temple destruction"
+  rev_13_16_17: "Roman commerce required coins with Nero's image; refusing to use them could identify Christians"
+  2thess_2_3_4: "Required worship as divine; built enormous statue of himself (Colossus of Nero)"

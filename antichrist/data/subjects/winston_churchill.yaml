@@ -1,0 +1,79 @@
+# Winston Churchill analysis for Antichrist prophecies
+---
+name: "Winston Churchill"
+title: "Prime Minister of the United Kingdom"
+time_period: "1940-1945, 1951-1955"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.5  # Wartime leadership but defensive rather than conquering
+  rev_6_6: 0.6  # Wartime rationing during premiership
+  rev_8_10: 0.0  # No major pandemic during leadership
+  rev_13_1_2: 0.5  # Forceful rhetoric but directed at enemies, not general threats
+  rev_13_3: 0.0  # No head wound survival
+  rev_13_4: 0.6  # Respected leader but not worshipped
+  rev_13_5_6: 0.0  # Strong Christian rhetoric, not blasphemous
+  rev_13_7: 0.6  # Led British Empire with global influence
+  rev_13_8: 0.3  # Admired but not worshipped
+  rev_13_11_12: 0.0  # No religious leaders promoting worship of him
+  rev_13_13_15: 0.0  # No counterfeit miracles or signs
+  rev_13_16_17: 0.0  # No mark for followers
+  rev_13_18: 0.0  # No connection to 666
+  rev_16_13_14: 0.5  # Influenced world leaders but through diplomacy
+  rev_17_3: 0.0  # Not associated with seven mountains/locations
+  rev_17_8: 0.3  # Political comeback after wilderness years
+  rev_17_9_11: 0.0  # Not associated with seven mountains
+  rev_17_12_13: 0.6  # Allied leaders coordinated under his leadership
+  rev_17_15: 0.7  # British Empire was highly multicultural
+  rev_17_16_17: 0.0  # Supported religious institutions
+  rev_19_19_20: 0.0  # Not defeated and thrown into fire
+  
+  # Daniel prophecies
+  dan_7_8: 0.6  # Known for memorable speeches but not specifically boastful
+  dan_7_20: 0.4  # Some rhetoric about British greatness
+  dan_7_23: 0.7  # Led British Empire, a global power
+  dan_7_24: 0.0  # Rose through conventional political means
+  dan_7_25: 0.3  # War measures but limited lasting legal changes
+  dan_8_23: 0.6  # Political skill and strategy
+  dan_8_25: 0.1  # Generally truthful in public discourse
+  dan_9_26_27: 0.3  # Some involvement in Middle East affairs
+  dan_11_14: 0.0  # No violent rebellion by supporters
+  dan_11_16_18: 0.4  # Operations in Mediterranean region
+  dan_11_21: 0.0  # Conventional political career
+  dan_11_23: 0.0  # Broad coalition, not secret alliance
+  dan_11_24: 0.0  # Did not redistribute wealth to followers
+  dan_11_28: 0.3  # Some questionable colonial policies
+  dan_11_29_33: 0.0  # No armed clearance of holy places
+  dan_11_32: 0.0  # No religious resistance to him
+  dan_11_33: 0.0  # No religious persecution
+  dan_11_36: 0.0  # Remained humble toward God in speeches
+  dan_11_37: 0.0  # Respected traditional religious values
+  dan_11_39: 0.2  # Merit-based appointments, not primarily loyalty
+  dan_11_40: 0.4  # Some conflicts in North Africa
+  dan_11_44: 0.5  # Concerns about Soviet advances in East
+  dan_12_7: 0.3  # Christian institutions maintained power during leadership
+  
+  # Other prophecies
+  2thess_2_3_4: 0.0  # Did not exalt himself above God
+  2thess_2_9_10: 0.0  # No counterfeit miracles
+  1john_2_18: 0.0  # Not considered an antichrist figure
+  1john_2_22: 0.0  # Did not deny Christ/Father
+  1john_4_3: 0.0  # Did not deny Jesus
+  2john_1_7: 0.0  # Not a deceiver regarding Jesus
+  matt_24_24: 0.0  # Did not deceive Christians
+  matt_24_40_41: 0.5  # Wartime conscription and mobilization
+  zech_11_16_17: 0.3  # Some questionable wartime decisions
+  acts_2_17: 0.0  # No reports of strange dreams during leadership
+
+# Evidence examples for key prophecies
+evidence:
+  rev_13_7: "Led British Empire encompassing approximately 25% of world's population"
+  dan_7_23: "Directed British military power during World War II"
+  rev_6_6: "Implemented strict rationing system during wartime shortages"

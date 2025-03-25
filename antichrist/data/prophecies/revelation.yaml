@@ -1,0 +1,169 @@
+# Revelation prophecies about the Antichrist
+---
+- id: rev_6_2
+  reference: "Revelation 6:2"
+  text: "And I looked, and behold, a white horse! And its rider had a bow, and a crown was given to him, and he came out conquering, and to conquer."
+  description: "The Antichrist will be obsessed with conquering and winning"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they're obsessed with conquering/winning
+    P_notH: 0.4  # If someone is NOT the Antichrist, 40% chance they're obsessed with conquering/winning
+
+- id: rev_6_6
+  reference: "Revelation 6:6"
+  text: "And I heard what seemed to be a voice in the midst of the four living creatures, saying, 'A quart of wheat for a denarius, and three quarts of barley for a denarius, and do not harm the oil and wine!'"
+  description: "During the Antichrist's rule, there will be food shortages and price increases while some commodities remain unaffected"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance there are economic disruptions during rule
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance of economic disruptions during rule
+
+- id: rev_8_10
+  reference: "Revelation 8:10"
+  text: "The third angel blew his trumpet, and a great star fell from heaven, blazing like a torch, and it fell on a third of the rivers and on the springs of water. The name of the star is Wormwood. A third of the waters became wormwood, and many people died from the water, because it had been made bitter."
+  description: "A global pandemic will occur during the Antichrist's rule, killing many people"
+  bayesian:
+    P_H: 0.7  # If someone is the Antichrist, 70% chance a major pandemic occurs during rule
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance a major pandemic occurs during rule
+
+- id: rev_13_1_2
+  reference: "Revelation 13:1-2"
+  text: "And I saw a beast rising out of the sea, with ten horns and seven heads, with ten diadems on its horns and blasphemous names on its heads. And the beast that I saw was like a leopard; its feet were like a bear's, and its mouth was like a lion's mouth. And to it the dragon gave his power and his throne and great authority."
+  description: "The Antichrist will be a political leader who receives power from Satan; will have a lion-like mouth making threats"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they're a powerful political leader with threatening rhetoric
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they're a powerful political leader with threatening rhetoric
+
+- id: rev_13_3
+  reference: "Revelation 13:3"
+  text: "One of its heads seemed to have a mortal wound, but its mortal wound was healed, and the whole earth marveled as they followed the beast."
+  description: "The Antichrist will appear to receive a fatal wound to the head but will survive, amazing the world"
+  bayesian:
+    P_H: 0.95  # If someone is the Antichrist, 95% chance they'd survive a head wound
+    P_notH: 0.005  # If someone is NOT the Antichrist, 0.5% chance they'd survive a head wound
+
+- id: rev_13_4
+  reference: "Revelation 13:4"
+  text: "And they worshiped the dragon, for he had given his authority to the beast, and they worshiped the beast, saying, 'Who is like the beast, and who can fight against it?'"
+  description: "People will worship the Antichrist, asking 'Who is like the beast?'"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance followers express this sentiment
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance followers express this sentiment
+
+- id: rev_13_5_6
+  reference: "Revelation 13:5-6"
+  text: "And the beast was given a mouth uttering haughty and blasphemous words, and it was allowed to exercise authority for forty-two months. It opened its mouth to utter blasphemies against God, blaspheming his name and his dwelling, that is, those who dwell in heaven."
+  description: "The Antichrist will speak arrogantly and blaspheme against God"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they speak blasphemously
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they speak blasphemously
+
+- id: rev_13_7
+  reference: "Revelation 13:7"
+  text: "Also it was allowed to make war on the saints and to conquer them. And authority was given it over every tribe and people and language and nation."
+  description: "The Antichrist will have authority over every tribe, people, language and nation"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they have wide global authority
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they have wide global authority
+
+- id: rev_13_8
+  reference: "Revelation 13:8"
+  text: "And all who dwell on earth will worship it, everyone whose name has not been written before the foundation of the world in the book of life of the Lamb who was slain."
+  description: "The Antichrist will be worshipped by many people around the world"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they're worshipped globally
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they're worshipped globally
+
+- id: rev_13_11_12
+  reference: "Revelation 13:11-12"
+  text: "Then I saw another beast rising out of the earth. It had two horns like a lamb and it spoke like a dragon. It exercises all the authority of the first beast in its presence, and makes the earth and its inhabitants worship the first beast, whose mortal wound was healed."
+  description: "A religious leader will support the Antichrist and cause people to worship him"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they're supported by religious leaders
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they're supported by religious leaders
+
+- id: rev_13_13_15
+  reference: "Revelation 13:13-15"
+  text: "It performs great signs, even making fire come down from heaven to earth in front of people, and by the signs that it is allowed to work in the presence of the beast it deceives those who dwell on earth, telling them to make an image for the beast that was wounded by the sword and yet lived. And it was allowed to give breath to the image of the beast, so that the image of the beast might even speak and might cause those who would not worship the image of the beast to be slain."
+  description: "The Antichrist will use counterfeit miracles, signs and wonders to deceive people"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they use spectacle to deceive
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they use spectacle to deceive
+
+- id: rev_13_16_17
+  reference: "Revelation 13:16-17"
+  text: "Also it causes all, both small and great, both rich and poor, both free and slave, to be marked on the right hand or the forehead, so that no one can buy or sell unless he has the mark, that is, the name of the beast or the number of its name."
+  description: "The Antichrist's followers will wear a mark on their foreheads or hands required for commerce"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance followers have identifying mark
+    P_notH: 0.1  # If someone is NOT the Antichrist, 10% chance followers have identifying mark
+
+- id: rev_13_18
+  reference: "Revelation 13:18"
+  text: "This calls for wisdom: let the one who has understanding calculate the number of the beast, for it is the number of a man, and his number is 666."
+  description: "The Antichrist's number will be 666, which requires wisdom to interpret"
+  bayesian:
+    P_H: 0.95  # If someone is the Antichrist, 95% chance their name equals 666
+    P_notH: 0.001  # If someone is NOT the Antichrist, 0.001 (0.1%) chance their name equals 666
+
+- id: rev_16_13_14
+  reference: "Revelation 16:13-14"
+  text: "And I saw, coming out of the mouth of the dragon and out of the mouth of the beast and out of the mouth of the false prophet, three unclean spirits like frogs. For they are demonic spirits, performing signs, who go abroad to the kings of the whole world, to assemble them for battle on the great day of God the Almighty."
+  description: "The Antichrist will use demonic powers to influence world leaders"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they influence world leaders
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they influence world leaders
+
+- id: rev_17_3
+  reference: "Revelation 17:3"
+  text: "And he carried me away in the Spirit into a wilderness, and I saw a woman sitting on a scarlet beast that was full of blasphemous names, and it had seven heads and ten horns."
+  description: "The Antichrist will be full of blasphemous names with seven heads (possibly locations) and ten horns (possibly allies)"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they're associated with seven locations
+    P_notH: 0.1  # If someone is NOT the Antichrist, 10% chance they're associated with seven locations
+
+- id: rev_17_8
+  reference: "Revelation 17:8"
+  text: "The beast that you saw was, and is not, and is about to rise from the bottomless pit and go to destruction. And the dwellers on earth whose names have not been written in the book of life from the foundation of the world will marvel to see the beast, because it was and is not and is to come."
+  description: "The Antichrist will fascinate the world with his appearance"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they fascinate the world
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they fascinate the world
+
+- id: rev_17_9_11
+  reference: "Revelation 17:9-11"
+  text: "This calls for a mind with wisdom: the seven heads are seven mountains on which the woman is seated; they are also seven kings, five of whom have fallen, one is, the other has not yet come, and when he does come he must remain only a little while. As for the beast that was and is not, it is an eighth but it belongs to the seven, and it goes to destruction."
+  description: "The Antichrist will be associated with seven mountains or hills and will be the eighth in a succession of rulers"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they're associated with seven mountains
+    P_notH: 0.05  # If someone is NOT the Antichrist, 5% chance they're associated with seven mountains
+
+- id: rev_17_12_13
+  reference: "Revelation 17:12-13"
+  text: "And the ten horns that you saw are ten kings who have not yet received royal power, but they are to receive authority as kings for one hour, together with the beast. These are of one mind, and they hand over their power and authority to the beast."
+  description: "Ten powerful figures will support the Antichrist and give him their authority"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they're supported by powerful figures
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they're supported by powerful figures
+
+- id: rev_17_15
+  reference: "Revelation 17:15"
+  text: "And the angel said to me, 'The waters that you saw, where the prostitute is seated, are peoples and multitudes and nations and languages.'"
+  description: "The Antichrist comes from a place with many peoples, nations, and languages"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they're from a multicultural place
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they're from a multicultural place
+
+- id: rev_17_16_17
+  reference: "Revelation 17:16-17"
+  text: "And the ten horns that you saw, they and the beast will hate the prostitute. They will make her desolate and naked, and devour her flesh and burn her up with fire, for God has put it into their hearts to carry out his purpose by being of one mind and handing over their royal power to the beast, until the words of God are fulfilled."
+  description: "The Antichrist will eventually turn against religious institutions"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they turn against religious institutions
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they turn against religious institutions
+
+- id: rev_19_19_20
+  reference: "Revelation 19:19-20"
+  text: "And I saw the beast and the kings of the earth with their armies gathered to make war against him who was sitting on the horse and against his army. And the beast was captured, and with it the false prophet who in its presence had done the signs by which he deceived those who had received the mark of the beast and those who worshiped its image. These two were thrown alive into the lake of fire that burns with sulfur."
+  description: "The Antichrist will eventually be defeated and thrown into the lake of fire"
+  bayesian:
+    P_H: 0.99  # If someone is the Antichrist, 99% chance they'll be ultimately defeated
+    P_notH: 0.9  # If someone is NOT the Antichrist, 90% chance they'll be ultimately defeated

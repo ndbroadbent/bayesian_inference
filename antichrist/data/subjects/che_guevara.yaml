@@ -1,0 +1,84 @@
+# Che Guevara analysis for Antichrist prophecies
+---
+name: "Che Guevara"
+title: "Revolutionary Leader"
+time_period: "1956-1967"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.7  # Revolutionary conquests in Cuba and attempts elsewhere
+  rev_6_6: 0.4  # Some economic disruption but limited scope
+  rev_8_10: 0.2  # No major pandemic associated with him
+  rev_13_1_2: 0.6  # Revolutionary rhetoric but limited actual power
+  rev_13_3: 0.0  # No head wound survival (killed in Bolivia)
+  rev_13_4: 0.6  # Posthumous cult of personality
+  rev_13_5_6: 0.7  # Anti-religious statements, "I came to communism because of Stalin"
+  rev_13_7: 0.3  # Limited global influence during life
+  rev_13_8: 0.7  # Posthumous iconic status and adoration
+  rev_13_11_12: 0.1  # Anti-religious, no religious leader support
+  rev_13_13_15: 0.4  # Some propaganda but limited technological means
+  rev_13_16_17: 0.8  # Image became iconic symbol worn by followers
+  rev_13_18: 0.2  # No strong 666 connections claimed
+  rev_16_13_14: 0.3  # Limited influence over world leaders
+  rev_17_3: 0.2  # No connection to seven hills/towers
+  rev_17_8: 0.5  # Rose from doctor to revolutionary leader
+  rev_17_9_11: 0.1  # Not associated with seven mountains
+  rev_17_12_13: 0.4  # Support from some revolutionary groups
+  rev_17_15: 0.5  # Operated in various Latin American countries
+  rev_17_16_17: 0.7  # Opposed religious institutions
+  rev_19_19_20: 0.5  # Captured and executed in Bolivia
+  
+  # Daniel prophecies
+  dan_7_8: 0.6  # Revolutionary rhetoric
+  dan_7_20: 0.5  # Limited "greatness" rhetoric
+  dan_7_23: 0.2  # Not associated with a superpower
+  dan_7_24: 0.5  # Rose among revolutionary leaders
+  dan_7_25: 0.5  # Limited ability to change laws
+  dan_8_23: 0.6  # Strategic guerrilla warfare
+  dan_8_25: 0.5  # Some deceptive practices
+  dan_9_26_27: 0.1  # No connection to Israel
+  dan_11_14: 0.7  # Led violent revolution in Cuba
+  dan_11_16_18: 0.1  # No involvement in Israel
+  dan_11_21: 0.6  # Rose from doctor to revolutionary leader
+  dan_11_23: 0.7  # Cuban revolution started with small guerrilla force
+  dan_11_24: 0.6  # Supported wealth redistribution
+  dan_11_28: 0.4  # Some population displacement during revolution
+  dan_11_29_33: 0.5  # Some actions against religious institutions
+  dan_11_32: 0.4  # Some resistance to Cuban revolution
+  dan_11_33: 0.5  # Some fled Cuba during revolution
+  dan_11_36: 0.5  # Some self-importance but not extreme
+  dan_11_37: 0.7  # Rejected religion as "opiate of the masses"
+  dan_11_39: 0.5  # Limited ability to reward followers
+  dan_11_40: 0.3  # Limited border conflicts
+  dan_11_44: 0.4  # Some paranoia about counter-revolutionaries
+  dan_12_7: 0.1  # Suppressed Christianity in Cuba
+  
+  # Other prophecies
+  2thess_2_3_4: 0.6  # Some self-exaltation
+  2thess_2_9_10: 0.5  # Revolutionary rise to power
+  1john_2_18: 0.5  # General positioning in modern era
+  1john_2_22: 0.7  # Explicitly rejected religious belief
+  1john_4_3: 0.7  # Explicitly rejected religious belief
+  2john_1_7: 0.5  # Some deceptive practices
+  matt_24_24: 0.2  # Anti-religious, not supported by Christians
+  matt_24_40_41: 0.4  # Some separation during revolution
+  zech_11_16_17: 0.6  # Oversaw executions at La Cabaña prison
+  acts_2_17: 0.2  # No unusual dream phenomena reported
+
+# Evidence examples for key prophecies
+evidence:
+  rev_13_16_17: "His image became one of the most reproduced and worn symbols in history"
+  rev_13_8: "Posthumously became an iconic figure worshipped by revolutionaries worldwide"
+  dan_11_14: "Led guerrilla warfare in Cuban Revolution against Batista regime"
+  rev_13_5_6: "Stated 'I came to communism because of Stalin' and was explicitly atheistic"
+  dan_7_8: "Known for fiery revolutionary speeches at United Nations and elsewhere"
+  zech_11_16_17: "Oversaw hundreds of executions as commander of La Cabaña prison"
+  dan_11_37: "Rejected religion as incompatible with revolutionary Marxism"
+  dan_11_23: "Cuban revolution began with just 82 revolutionaries aboard the Granma yacht"

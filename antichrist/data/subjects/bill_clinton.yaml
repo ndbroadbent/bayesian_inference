@@ -1,0 +1,82 @@
+# Bill Clinton analysis for Antichrist prophecies
+---
+name: "Bill Clinton"
+title: "42nd President of the United States"
+time_period: "1993-2001"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.5  # Some focus on economic expansion
+  rev_6_6: 0.4  # Some economic fluctuations
+  rev_8_10: 0.2  # No major pandemic during presidency
+  rev_13_1_2: 0.5  # US power but less threatening rhetoric
+  rev_13_3: 0.2  # Survived impeachment (political "wound" but not physical)
+  rev_13_4: 0.6  # Strong supporter devotion despite scandals
+  rev_13_5_6: 0.6  # Religious language despite personal controversies
+  rev_13_7: 0.6  # US global influence
+  rev_13_8: 0.5  # Strong support but not worship
+  rev_13_11_12: 0.5  # Some religious leader support
+  rev_13_13_15: 0.3  # Limited claims of special status
+  rev_13_16_17: 0.2  # No strong identifying mark for followers
+  rev_13_18: 0.3  # Some numerological connections claimed
+  rev_16_13_14: 0.6  # Influence over world leaders
+  rev_17_3: 0.2  # No strong connection to seven hills/towers
+  rev_17_8: 0.6  # Rose from Arkansas governor to president
+  rev_17_9_11: 0.2  # Not associated with seven mountains
+  rev_17_12_13: 0.5  # Support from Democratic Party figures
+  rev_17_15: 0.7  # From multicultural America
+  rev_17_16_17: 0.4  # Some tensions with religious institutions
+  rev_19_19_20: 0.0  # Not defeated in this manner
+  
+  # Daniel prophecies
+  dan_7_8: 0.6  # Charismatic, sometimes boastful speech
+  dan_7_20: 0.5  # Some rhetoric about American greatness
+  dan_7_23: 0.8  # US as military superpower
+  dan_7_24: 0.5  # Political rise through governorship
+  dan_7_25: 0.5  # Some controversial executive orders
+  dan_8_23: 0.6  # Political strategy and savvy
+  dan_8_25: 0.7  # Impeached for perjury, accusations of deception
+  dan_9_26_27: 0.6  # Middle East peace efforts
+  dan_11_14: 0.4  # Some violent opposition
+  dan_11_16_18: 0.6  # Involvement in Israel/Palestine peace process
+  dan_11_21: 0.6  # Rose from Arkansas governor to president
+  dan_11_23: 0.5  # Not initially favored in 1992 election
+  dan_11_24: 0.4  # No unusual wealth distribution
+  dan_11_28: 0.5  # Some immigration policies
+  dan_11_29_33: 0.1  # No church desecration
+  dan_11_32: 0.5  # Some Christian opposition
+  dan_11_33: 0.4  # Some protests during presidency
+  dan_11_36: 0.5  # Some self-exalting language
+  dan_11_37: 0.4  # Christian identification despite controversies
+  dan_11_39: 0.6  # Appointed supporters to positions
+  dan_11_40: 0.5  # Some border/immigration issues
+  dan_11_44: 0.6  # Concerns about criticism and investigations
+  dan_12_7: 0.5  # Christian political engagement during presidency
+  
+  # Other prophecies
+  2thess_2_3_4: 0.5  # Some self-exaltation
+  2thess_2_9_10: 0.5  # Political rise
+  1john_2_18: 0.5  # General positioning in modern era
+  1john_2_22: 0.4  # Professed Christianity despite controversies
+  1john_4_3: 0.4  # Professed Christianity despite controversies
+  2john_1_7: 0.5  # Some accusations of deception (testimony)
+  matt_24_24: 0.6  # Christian support despite moral controversies
+  matt_24_40_41: 0.4  # Some worker displacement policies
+  zech_11_16_17: 0.4  # Some policies criticized
+  acts_2_17: 0.2  # No unusual dream phenomena
+
+# Evidence examples for key prophecies
+evidence:
+  dan_8_25: "Impeached for perjury related to Lewinsky testimony"
+  rev_13_5_6: "Used religious language while engaging in personal controversies"
+  rev_13_3: "Survived impeachment process politically"
+  dan_9_26_27: "Heavily involved in Israeli-Palestinian peace process"
+  dan_7_8: "Known for charismatic and sometimes boastful speeches"
+  rev_13_4: "Maintained strong popularity despite scandals"

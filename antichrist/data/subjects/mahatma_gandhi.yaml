@@ -1,0 +1,79 @@
+# Mahatma Gandhi analysis for Antichrist prophecies
+---
+name: "Mahatma Gandhi"
+title: "Leader of Indian Independence Movement"
+time_period: "1915-1948"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.0  # Advocated non-violence, opposite of conquering
+  rev_6_6: 0.3  # Some economic changes during independence movement
+  rev_8_10: 0.0  # No major pandemic directly linked to his leadership
+  rev_13_1_2: 0.0  # Non-threatening, gentle rhetoric
+  rev_13_3: 0.0  # Died from assassination, did not survive
+  rev_13_4: 0.3  # Respected but emphasized following his principles, not himself
+  rev_13_5_6: 0.0  # Spoke respectfully about all religions
+  rev_13_7: 0.0  # Limited to Indian subcontinent influence
+  rev_13_8: 0.3  # Highly revered but not worshipped
+  rev_13_11_12: 0.0  # Religious leaders did not promote worship of him
+  rev_13_13_15: 0.0  # No counterfeit miracles or spectacle
+  rev_13_16_17: 0.0  # No mark for followers
+  rev_13_18: 0.0  # No connection to 666
+  rev_16_13_14: 0.0  # Influenced through non-violence, not demonic powers
+  rev_17_3: 0.0  # Not associated with seven mountains/locations
+  rev_17_8: 0.0  # No "was, is not, will come" narrative
+  rev_17_9_11: 0.0  # Not associated with seven mountains
+  rev_17_12_13: 0.0  # Leaders did not hand over authority to him
+  rev_17_15: 0.4  # From multicultural India
+  rev_17_16_17: 0.0  # Did not turn against religious institutions
+  rev_19_19_20: 0.0  # Not defeated and thrown into fire
+  
+  # Daniel prophecies
+  dan_7_8: 0.0  # Not boastful in speech
+  dan_7_20: 0.0  # Did not emphasize "greatness" in rhetoric
+  dan_7_23: 0.0  # India was not a military superpower
+  dan_7_24: 0.0  # Not rising from among ten kings
+  dan_7_25: 0.0  # Did not try to change times and laws in negative ways
+  dan_8_23: 0.0  # Known for honesty, not intrigue
+  dan_8_25: 0.0  # Truth-focused, not deception
+  dan_9_26_27: 0.0  # No connection to Israel covenants
+  dan_11_14: 0.0  # Advocated non-violence, opposite of rebellion
+  dan_11_16_18: 0.0  # No focus on Israel coastal regions
+  dan_11_21: 0.0  # Rose through dedicated peaceful activism
+  dan_11_23: 0.0  # No secret alliance/collusion
+  dan_11_24: 0.0  # Advocated simple living, not wealth distribution
+  dan_11_28: 0.0  # Protected minorities and vulnerable groups
+  dan_11_29_33: 0.0  # No armed clearance of holy places
+  dan_11_32: 0.0  # Religious believers generally supported him
+  dan_11_33: 0.0  # No violent resistance against him
+  dan_11_36: 0.0  # Humble, never exalted himself above God
+  dan_11_37: 0.0  # Respected all religious traditions
+  dan_11_39: 0.0  # Did not reward loyalists with power
+  dan_11_40: 0.0  # No feud with southern leaders
+  dan_11_44: 0.0  # Not enraged by reports from east/north
+  dan_12_7: 0.0  # No connection to Christian power during rule
+  
+  # Other prophecies
+  2thess_2_3_4: 0.0  # Did not exalt himself above God
+  2thess_2_9_10: 0.0  # No counterfeit miracles
+  1john_2_18: 0.0  # Not considered an antichrist figure
+  1john_2_22: 0.0  # Did not deny Christ/Father
+  1john_4_3: 0.0  # Did not deny Jesus
+  2john_1_7: 0.0  # Not a deceiver regarding Jesus
+  matt_24_24: 0.0  # Did not deceive Christians
+  matt_24_40_41: 0.0  # No mass disappearance of workers
+  zech_11_16_17: 0.0  # Actively protected vulnerable populations
+  acts_2_17: 0.0  # No reports of strange dreams during leadership
+
+# Evidence examples for key prophecies
+evidence:
+  rev_6_2: "Promoted non-violence (ahimsa) as primary philosophy, opposite of conquering"
+  rev_13_5_6: "Respected all religions and encouraged interfaith harmony"
+  zech_11_16_17: "Contrary to prophecy, dedicated life to helping the vulnerable and oppressed"

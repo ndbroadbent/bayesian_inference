@@ -1,0 +1,84 @@
+# Adolf Hitler analysis for Antichrist prophecies
+---
+name: "Adolf Hitler"
+title: "Chancellor of Germany, Führer of Nazi Germany"
+time_period: "1933-1945"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.9  # Military conquests and expansionism
+  rev_6_6: 0.7  # Rationing and economic controls during war
+  rev_8_10: 0.0  # No major pandemic during rule
+  rev_13_1_2: 0.9  # Military power and threatening rhetoric
+  rev_13_3: 0.2  # Survived Munich Putsch and assassination attempts, but no head wound
+  rev_13_4: 0.8  # Cult-like following with extreme devotion
+  rev_13_5_6: 0.9  # Extremely boastful and anti-religious rhetoric
+  rev_13_7: 0.9  # Conquered multiple nations across Europe
+  rev_13_8: 0.8  # Worshipped by Nazi followers
+  rev_13_11_12: 0.6  # Some religious leaders supported Nazi regime
+  rev_13_13_15: 0.7  # Propaganda and spectacle, but no actual miracles
+  rev_13_16_17: 0.9  # Swastika armbands and Nazi salutes required
+  rev_13_18: 0.0  # No connection to 666
+  rev_16_13_14: 0.8  # Influenced world leaders through force or alliance
+  rev_17_3: 0.0  # Not associated with seven mountains/towers
+  rev_17_8: 0.6  # Some mystique around his rise, but not "was, is not, will come"
+  rev_17_9_11: 0.0  # Not associated with seven mountains/hills
+  rev_17_12_13: 0.8  # Allied with other nations who supported his authority
+  rev_17_15: 0.6  # Germany was not exceptionally multicultural
+  rev_17_16_17: 0.9  # Initially partnered with churches, then persecuted them
+  rev_19_19_20: 0.0  # Suicide death, not captured and thrown alive into fire
+  
+  # Daniel prophecies
+  dan_7_8: 0.9  # Extremely boastful speech
+  dan_7_20: 0.8  # Rhetoric about German greatness
+  dan_7_23: 0.9  # Nazi Germany as military superpower
+  dan_7_24: 0.5  # Rise after Weimar Republic, but not among "ten kings"
+  dan_7_25: 0.9  # Changed German laws and calendar (Nazi calendar)
+  dan_8_23: 0.8  # Master of political intrigue
+  dan_8_25: 0.9  # Propaganda and deception
+  dan_9_26_27: 0.6  # Tentative connection to covenant breaking
+  dan_11_14: 0.8  # Beer Hall Putsch and violent supporters
+  dan_11_16_18: 0.0  # No connection to Israel (didn't exist yet)
+  dan_11_21: 0.8  # Political outsider who gained power unexpectedly
+  dan_11_23: 0.8  # Rose with relatively small Nazi party initially
+  dan_11_24: 0.8  # Seized wealth and distributed to supporters
+  dan_11_28: 0.9  # Targeted Jews and other groups
+  dan_11_29_33: 0.6  # Some parallels to religious persecution
+  dan_11_32: 0.7  # Resistance movements formed against him
+  dan_11_33: 0.9  # Violent suppression of resistance
+  dan_11_36: 0.9  # Extreme self-exaltation
+  dan_11_37: 0.7  # Rejected traditional religious values
+  dan_11_39: 0.9  # Rewarded Nazi loyalists with positions
+  dan_11_40: 0.6  # Military conflicts with nations to south
+  dan_11_44: 0.7  # Agitated by eastern front reports
+  dan_12_7: 0.5  # Some Christians supported regime, others opposed
+  
+  # Other prophecies
+  2thess_2_3_4: 0.8  # Self-exaltation to god-like status
+  2thess_2_9_10: 0.6  # Political rise but no actual miracles
+  1john_2_18: 0.5  # General antichrist characteristics
+  1john_2_22: 0.7  # Rejected Jesus as messiah
+  1john_4_3: 0.7  # Rejected Christian theology
+  2john_1_7: 0.7  # Deception as core strategy
+  matt_24_24: 0.7  # Deceived many Christians
+  matt_24_40_41: 0.9  # Mass deportation of Jews and others
+  zech_11_16_17: 0.9  # Complete disregard for vulnerable populations
+  acts_2_17: 0.0  # No dream phenomena reported
+
+# Evidence examples for key prophecies
+evidence:
+  rev_13_5_6: "Public speeches denigrating Jews and other religions; elevation of Nazi ideology above traditional religion"
+  dan_7_25: "Created new Nazi calendar, abolished religious holidays, changed legal system drastically"
+  dan_11_21: "Rose from political obscurity to Chancellor through manipulation"
+  rev_13_16_17: "Nazi salute and swastika armbands required for party participation"
+  dan_11_28: "Systematic persecution of Jews and other minorities"
+  rev_13_7: "Conquered multiple European nations through blitzkrieg warfare"
+  2thess_2_3_4: "Portrayed himself as a messiah figure for Germany, created cult of personality"
+  matt_24_40_41: "Forced deportation of millions of Jews and others to concentration camps"

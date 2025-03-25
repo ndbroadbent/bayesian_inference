@@ -1,0 +1,185 @@
+# Daniel prophecies about the Antichrist
+---
+- id: dan_7_8
+  reference: "Daniel 7:8"
+  text: "I considered the horns, and behold, there came up among them another horn, a little one, before which three of the first horns were plucked up by the roots. And behold, in this horn were eyes like the eyes of a man, and a mouth speaking great things."
+  description: "The Antichrist will speak boastfully"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they speak boastfully
+    P_notH: 0.4  # If someone is NOT the Antichrist, 40% chance they speak boastfully
+
+- id: dan_7_20
+  reference: "Daniel 7:20"
+  text: "And about the ten horns that were on its head, and the other horn that came up and before which three of them fell, the horn that had eyes and a mouth that spoke great things, and that seemed greater than its companions."
+  description: "The Antichrist will speak of 'great things' and things that seem 'greater'"
+  bayesian:
+    P_H: 0.95  # If someone is the Antichrist, 95% chance they speak of greatness
+    P_notH: 0.1  # If someone is NOT the Antichrist, 10% chance they specifically emphasize greatness
+
+- id: dan_7_23
+  reference: "Daniel 7:23"
+  text: "Thus he said: 'As for the fourth beast, there shall be a fourth kingdom on earth, which shall be different from all the kingdoms, and it shall devour the whole earth, and trample it down, and break it in pieces.'"
+  description: "The Antichrist will come from a nation that is a military superpower able to crush the earth"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they're from a superpower
+    P_notH: 0.5  # If someone is NOT the Antichrist, 50% chance they're from a superpower
+
+- id: dan_7_24
+  reference: "Daniel 7:24"
+  text: "As for the ten horns, out of this kingdom ten kings shall arise, and another shall arise after them; he shall be different from the former ones, and shall put down three kings."
+  description: "The Antichrist will rise to power from among ten kings"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they rise from a group of rulers
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they rise from a group of rulers
+
+- id: dan_7_25
+  reference: "Daniel 7:25"
+  text: "He shall speak words against the Most High, and shall wear out the saints of the Most High, and shall think to change the times and the law; and they shall be given into his hand for a time, times, and half a time."
+  description: "The Antichrist will try to change times and laws"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they try to change laws/times
+    P_notH: 0.4  # If someone is NOT the Antichrist, 40% chance they try to change laws/times
+
+- id: dan_8_23
+  reference: "Daniel 8:23"
+  text: "And at the latter end of their kingdom, when the transgressors have reached their limit, a king of bold face, one who understands riddles, shall arise."
+  description: "The Antichrist will be a master of intrigue"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they're a master of intrigue
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they're a master of intrigue
+
+- id: dan_8_25
+  reference: "Daniel 8:25"
+  text: "By his cunning he shall make deceit prosper under his hand, and in his own mind he shall become great. Without warning he shall destroy many. And he shall even rise up against the Prince of princes, and he shall be broken—but by no human hand."
+  description: "The Antichrist will cause deceit to prosper and consider himself superior"
+  bayesian:
+    P_H: 0.95  # If someone is the Antichrist, 95% chance they promote deceit
+    P_notH: 0.4  # If someone is NOT the Antichrist, 40% chance they promote deceit
+
+- id: dan_9_26_27
+  reference: "Daniel 9:26-27"
+  text: "And after the sixty-two weeks, an anointed one shall be cut off and shall have nothing. And the people of the prince who is to come shall destroy the city and the sanctuary. Its end shall come with a flood, and to the end there shall be war. Desolations are decreed. And he shall make a strong covenant with many for one week, and for half of the week he shall put an end to sacrifice and offering. And on the wing of abominations shall come one who makes desolate, until the decreed end is poured out on the desolator."
+  description: "The Antichrist will make and break a covenant with many; a ruler in Israel will cause desolation"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they make/break covenants with Israel
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they make/break covenants with Israel
+
+- id: dan_11_14
+  reference: "Daniel 11:14"
+  text: "In those times many shall rise against the king of the south, and the violent among your own people shall lift themselves up in order to fulfill the vision, but they shall fail."
+  description: "Supporters of the Antichrist will become violent and stage a rebellion, but will fail"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance their supporters stage a violent rebellion
+    P_notH: 0.1  # If someone is NOT the Antichrist, 10% chance their supporters stage a violent rebellion
+
+- id: dan_11_16_18
+  reference: "Daniel 11:16-18"
+  text: "But he who comes against him shall do as he wills, and none shall stand before him. And he shall stand in the glorious land, with destruction in his hand. He shall set his face to come with the strength of his whole kingdom, and he shall bring terms of an agreement and perform them. He shall give him the daughter of women to destroy the kingdom, but it shall not stand or be to his advantage. Afterward he shall turn his face to the coastlands and shall capture many of them, but a commander shall put an end to his insolence. Indeed, he shall turn his insolence back upon him."
+  description: "The Antichrist will form an alliance with Israel and will focus on coastal areas"
+  bayesian:
+    P_H: 0.75  # If someone is the Antichrist, 75% chance they focus on Israel coastlands
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they focus on Israel coastlands
+
+- id: dan_11_21
+  reference: "Daniel 11:21"
+  text: "In his place shall arise a contemptible person to whom royal majesty has not been given. He shall come in without warning and obtain the kingdom by flatteries."
+  description: "The Antichrist will be a political outsider with contemptible character who wins unexpectedly"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they're a political outsider who wins unexpectedly
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they're a political outsider who wins unexpectedly
+
+- id: dan_11_23
+  reference: "Daniel 11:23"
+  text: "And from the time that an alliance is made with him he shall act deceitfully, and he shall become strong with a small people."
+  description: "The Antichrist will come to power through collusion with a secret alliance despite having few supporters"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they collude with small group
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they collude with small group
+
+- id: dan_11_24
+  reference: "Daniel 11:24"
+  text: "Without warning he shall come into the richest parts of the province, and he shall do what neither his fathers nor his fathers' fathers have done, scattering among them plunder, spoil, and goods. He shall devise plans against strongholds, but only for a time."
+  description: "The Antichrist will distribute plunder and wealth to his followers in unprecedented ways"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they distribute wealth to followers
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they distribute wealth to followers
+
+- id: dan_11_28
+  reference: "Daniel 11:28"
+  text: "And he shall return to his land with great wealth, but his heart shall be set against the holy covenant. And he shall work his will and return to his own land."
+  description: "The Antichrist will intentionally inflict harm on certain groups before returning to his land"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they target specific groups
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they target specific groups
+
+- id: dan_11_29_33
+  reference: "Daniel 11:29-33"
+  text: "At the time appointed he shall return and come into the south, but it shall not be this time as it was before. For ships of Kittim shall come against him, and he shall be afraid and withdraw, and shall turn back and be enraged and take action against the holy covenant. He shall turn back and pay attention to those who forsake the holy covenant. Forces from him shall appear and profane the temple and fortress, and shall take away the regular burnt offering. And they shall set up the abomination that makes desolate. He shall seduce with flattery those who violate the covenant, but the people who know their God shall stand firm and take action. And the wise among the people shall make many understand, though for some days they shall stumble by sword and flame, by captivity and plunder."
+  description: "The Antichrist will use armed forces to clear an area near a holy place and set up something detestable"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they desecrate holy sites
+    P_notH: 0.05  # If someone is NOT the Antichrist, 5% chance they desecrate holy sites
+
+- id: dan_11_32
+  reference: "Daniel 11:32"
+  text: "He shall seduce with flattery those who violate the covenant, but the people who know their God shall stand firm and take action."
+  description: "True believers will resist the Antichrist"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance religious people resist them
+    P_notH: 0.4  # If someone is NOT the Antichrist, 40% chance religious people resist them
+
+- id: dan_11_33
+  reference: "Daniel 11:33"
+  text: "And the wise among the people shall make many understand, though for some days they shall stumble by sword and flame, by captivity and plunder."
+  description: "During the Antichrist's reign, those who resist will face violence but will instruct many"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance there's resistance with education
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance there's resistance with education
+
+- id: dan_11_36
+  reference: "Daniel 11:36"
+  text: "And the king shall do as he wills. He shall exalt himself and magnify himself above every god, and shall speak astonishing things against the God of gods. He shall prosper till the indignation is accomplished; for what is decreed shall be done."
+  description: "The Antichrist will exalt himself above every god and say outlandish things"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they self-exalt above gods
+    P_notH: 0.1  # If someone is NOT the Antichrist, 10% chance they self-exalt above gods
+
+- id: dan_11_37
+  reference: "Daniel 11:37"
+  text: "He shall pay no attention to the gods of his fathers, or to the one beloved by women. He shall not pay attention to any other god, for he shall magnify himself above all."
+  description: "The Antichrist will show no regard for the god of his fathers or desire of women"
+  bayesian:
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they reject traditional gods
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they reject traditional gods
+
+- id: dan_11_39
+  reference: "Daniel 11:39"
+  text: "He shall deal with the strongest fortresses with the help of a foreign god. Those who acknowledge him he shall load with honor. He shall make them rulers over many and shall divide the land for a price."
+  description: "The Antichrist will reward loyalists with powerful positions and lucrative land deals"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they reward loyalists with power
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they reward loyalists with power
+
+- id: dan_11_40
+  reference: "Daniel 11:40"
+  text: "At the time of the end, the king of the south shall attack him, but the king of the north shall rush upon him like a whirlwind, with chariots and horsemen, and with many ships. And he shall come into countries and shall overflow and pass through."
+  description: "The Antichrist will have a feud with leaders from the south"
+  bayesian:
+    P_H: 0.9  # If someone is the Antichrist, 90% chance they feud with southern leaders
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they feud with southern leaders
+
+- id: dan_11_44
+  reference: "Daniel 11:44"
+  text: "But news from the east and the north shall alarm him, and he shall go out with great fury to destroy and devote many to destruction."
+  description: "The Antichrist will rage at troubling reports from the east and north"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance they rage at reports from east/north
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they rage at reports from east/north
+
+- id: dan_12_7
+  reference: "Daniel 12:7"
+  text: "And I heard the man clothed in linen, who was above the waters of the stream; he raised his right hand and his left hand toward heaven and swore by him who lives forever that it would be for a time, times, and half a time, and that when the shattering of the power of the holy people comes to an end all these things would be finished."
+  description: "Christians will hold power during the Antichrist's reign but God will break their power"
+  bayesian:
+    P_H: 0.85  # If someone is the Antichrist, 85% chance Christians hold power during reign
+    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance Christians hold power during reign

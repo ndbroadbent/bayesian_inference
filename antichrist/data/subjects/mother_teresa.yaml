@@ -1,0 +1,79 @@
+# Mother Teresa analysis for Antichrist prophecies
+---
+name: "Mother Teresa"
+title: "Catholic Nun and Founder of Missionaries of Charity"
+time_period: "1950-1997"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.0  # Dedicated to service, not conquering
+  rev_6_6: 0.0  # Not associated with economic disruptions
+  rev_8_10: 0.0  # No pandemic during her ministry
+  rev_13_1_2: 0.0  # Gentle and humble speech
+  rev_13_3: 0.0  # No head wound survival
+  rev_13_4: 0.0  # Directed worship to God, not herself
+  rev_13_5_6: 0.0  # Spoke reverently about God
+  rev_13_7: 0.0  # Limited authority, served the poorest
+  rev_13_8: 0.0  # Respected but not worshipped
+  rev_13_11_12: 0.0  # Religious leaders did not promote worship of her
+  rev_13_13_15: 0.0  # No counterfeit miracles claimed
+  rev_13_16_17: 0.0  # No mark for followers
+  rev_13_18: 0.0  # No connection to 666
+  rev_16_13_14: 0.0  # No demonic influence over leaders
+  rev_17_3: 0.0  # Not associated with seven locations
+  rev_17_8: 0.0  # No "was, is not, will come" narrative
+  rev_17_9_11: 0.0  # Not associated with seven mountains
+  rev_17_12_13: 0.0  # World leaders admired but did not give authority
+  rev_17_15: 0.2  # Served in multicultural India
+  rev_17_16_17: 0.0  # Strengthened religious institutions
+  rev_19_19_20: 0.0  # Died naturally, not defeated
+  
+  # Daniel prophecies
+  dan_7_8: 0.0  # Humble, not boastful speech
+  dan_7_20: 0.0  # Never spoke of greatness regarding herself
+  dan_7_23: 0.0  # No connection to military power
+  dan_7_24: 0.0  # Not a political figure
+  dan_7_25: 0.0  # Did not try to change laws
+  dan_8_23: 0.0  # Known for simplicity, not intrigue
+  dan_8_25: 0.0  # Promoted truth and compassion
+  dan_9_26_27: 0.0  # No connection to Israel covenants
+  dan_11_14: 0.0  # Followers did not stage rebellions
+  dan_11_16_18: 0.0  # No focus on Israel coastal regions
+  dan_11_21: 0.0  # Not a political figure
+  dan_11_23: 0.0  # No alliances for power
+  dan_11_24: 0.0  # Lived in poverty, distributed aid to poor
+  dan_11_28: 0.0  # Helped vulnerable groups
+  dan_11_29_33: 0.0  # No armed clearance of holy places
+  dan_11_32: 0.0  # No resistance from religious believers
+  dan_11_33: 0.0  # No violent resistance against her
+  dan_11_36: 0.0  # Humble servant, never exalted herself
+  dan_11_37: 0.0  # Devoted to Catholic traditions
+  dan_11_39: 0.0  # No political power to distribute
+  dan_11_40: 0.0  # No feuds with other leaders
+  dan_11_44: 0.0  # Not enraged by reports
+  dan_12_7: 0.0  # Not connected to Christian political power
+  
+  # Other prophecies
+  2thess_2_3_4: 0.0  # Never exalted herself above God
+  2thess_2_9_10: 0.0  # No counterfeit miracles
+  1john_2_18: 0.0  # Exemplified Christian virtues
+  1john_2_22: 0.0  # Devoted follower of Christ
+  1john_4_3: 0.0  # Affirmed Jesus in all teachings
+  2john_1_7: 0.0  # Promoted truth about Jesus
+  matt_24_24: 0.0  # Strengthened faith, didn't deceive
+  matt_24_40_41: 0.0  # No disappearance of workers
+  zech_11_16_17: 0.0  # Dedicated life to helping the vulnerable
+  acts_2_17: 0.0  # No strange dreams phenomenon
+
+# Evidence examples for key prophecies
+evidence:
+  rev_13_5_6: "Always spoke with humility about God, directed praise to Jesus rather than herself"
+  dan_11_24: "Contrary to prophecy, lived in poverty and distributed resources to the poor rather than enriching herself"
+  zech_11_16_17: "Directly opposite of prophecy - dedicated her entire life to caring for the sick, poor and dying"

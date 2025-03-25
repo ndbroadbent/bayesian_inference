@@ -1,0 +1,82 @@
+# Barack Obama analysis for Antichrist prophecies
+---
+name: "Barack Obama"
+title: "44th President of the United States"
+time_period: "2009-2017"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.6  # "Yes We Can" campaign focused on hope and change
+  rev_6_6: 0.5  # Economic recession recovery with some food price increases
+  rev_8_10: 0.5  # H1N1 pandemic but not severe global impact
+  rev_13_1_2: 0.6  # US power and some assertive rhetoric
+  rev_13_3: 0.0  # No head wound survival
+  rev_13_4: 0.6  # Strong supporter devotion, "Obamamania"
+  rev_13_5_6: 0.4  # Generally respectful of religious traditions
+  rev_13_7: 0.6  # US global influence during his presidency
+  rev_13_8: 0.6  # Strong supporter devotion, celebrity-like status
+  rev_13_11_12: 0.5  # Some religious leaders supported him
+  rev_13_13_15: 0.3  # Some claims of special status by supporters
+  rev_13_16_17: 0.5  # "Hope" logo and symbolism adopted by followers
+  rev_13_18: 0.3  # Some numerological connections claimed
+  rev_16_13_14: 0.6  # Influence over world leaders
+  rev_17_3: 0.2  # No strong connection to seven hills/towers
+  rev_17_8: 0.7  # Political rise from obscurity fascinated the world
+  rev_17_9_11: 0.2  # Not associated with seven mountains
+  rev_17_12_13: 0.5  # Support from Democratic Party figures
+  rev_17_15: 0.8  # From multicultural Hawaii/Chicago
+  rev_17_16_17: 0.4  # Some tensions with religious institutions
+  rev_19_19_20: 0.0  # Not defeated in this manner
+  
+  # Daniel prophecies
+  dan_7_8: 0.4  # Generally measured in speech
+  dan_7_20: 0.5  # Some rhetoric about "hope" and "change"
+  dan_7_23: 0.8  # US as military superpower
+  dan_7_24: 0.3  # Rose through traditional political channels
+  dan_7_25: 0.6  # Healthcare reforms and executive orders
+  dan_8_23: 0.6  # Political strategy and savvy
+  dan_8_25: 0.5  # "If you like your plan, you can keep it" controversy
+  dan_9_26_27: 0.5  # Middle East policies, Iran nuclear deal
+  dan_11_14: 0.4  # Tea Party movement resistance
+  dan_11_16_18: 0.6  # Middle East focus including Israel
+  dan_11_21: 0.7  # Relatively unknown before presidential run
+  dan_11_23: 0.6  # Initially not favored to win
+  dan_11_24: 0.4  # No unusual wealth distribution
+  dan_11_28: 0.5  # Some immigration policies affecting migrants
+  dan_11_29_33: 0.1  # No church desecration
+  dan_11_32: 0.6  # Strong evangelical resistance
+  dan_11_33: 0.4  # Some protests during presidency
+  dan_11_36: 0.5  # Some claims of exceptional status
+  dan_11_37: 0.4  # Progressive Christian identification
+  dan_11_39: 0.5  # Appointed supporters to positions
+  dan_11_40: 0.6  # Border and immigration issues
+  dan_11_44: 0.4  # Generally measured response to criticism
+  dan_12_7: 0.6  # Christian political engagement during presidency
+  
+  # Other prophecies
+  2thess_2_3_4: 0.4  # No explicit self-exaltation above God
+  2thess_2_9_10: 0.5  # Unexpectedly rapid political rise
+  1john_2_18: 0.5  # General positioning in modern era
+  1john_2_22: 0.3  # Claimed Christian faith
+  1john_4_3: 0.3  # Claimed Christian faith
+  2john_1_7: 0.4  # Some accusations of deception
+  matt_24_24: 0.6  # Strong Christian support despite controversies
+  matt_24_40_41: 0.5  # Deportation policies
+  zech_11_16_17: 0.4  # Some policies criticized for impact on vulnerable
+  acts_2_17: 0.3  # No unusual dream phenomena reported
+
+# Evidence examples for key prophecies
+evidence:
+  rev_17_8: "Rose from relative obscurity as a state senator to become president with global attention"
+  dan_7_23: "Expanded drone warfare program and continued US military presence globally"
+  dan_7_25: "Implemented significant healthcare reform through Affordable Care Act"
+  dan_11_21: "Was relatively unknown junior senator before winning presidency"
+  rev_17_15: "Born in Hawaii, raised in Indonesia and Hawaii, worked in Chicago - multicultural background"
+  dan_11_32: "Tea Party movement formed in direct opposition to his policies"

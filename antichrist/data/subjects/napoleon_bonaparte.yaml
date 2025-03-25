@@ -1,0 +1,80 @@
+# Napoleon Bonaparte analysis for Antichrist prophecies
+---
+name: "Napoleon Bonaparte"
+title: "Emperor of the French"
+time_period: "1799-1815"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.9  # Extensive military conquests across Europe
+  rev_6_6: 0.6  # Economic disruption during Continental System
+  rev_8_10: 0.0  # No major pandemic during rule
+  rev_13_1_2: 0.8  # Threatening rhetoric and conquering leadership
+  rev_13_3: 0.5  # Political "resurrection" after exile to Elba
+  rev_13_4: 0.7  # Widespread devotion from supporters
+  rev_13_5_6: 0.7  # Established himself over Pope and Church
+  rev_13_7: 0.9  # Conquered numerous nations and peoples
+  rev_13_8: 0.7  # Worshipped by followers in France and conquered territories
+  rev_13_11_12: 0.4  # Some religious figures supported him
+  rev_13_13_15: 0.6  # Used spectacle and propaganda to boost image
+  rev_13_16_17: 0.5  # Imperial insignia and French tricolor as identifiers
+  rev_13_18: 0.0  # No connection to 666
+  rev_16_13_14: 0.8  # Influenced many European rulers
+  rev_17_3: 0.0  # Not associated with seven mountains/locations
+  rev_17_8: 0.7  # Exile and return from Elba resembles "was, is not, will come"
+  rev_17_9_11: 0.0  # Not associated with seven mountains
+  rev_17_12_13: 0.8  # Many rulers became vassals or allies
+  rev_17_15: 0.8  # French Empire included many peoples and languages
+  rev_17_16_17: 0.8  # Initially supported Church then imprisoned Pope
+  rev_19_19_20: 0.0  # Defeated and exiled, not thrown into fire
+  
+  # Daniel prophecies
+  dan_7_8: 0.8  # Boastful speech and proclamations
+  dan_7_20: 0.8  # Emphasis on French greatness and glory
+  dan_7_23: 0.9  # France as military superpower crushing others
+  dan_7_24: 0.7  # Rose after Directory and other revolutionary leaders
+  dan_7_25: 0.8  # Napoleonic Code changed laws across Europe
+  dan_8_23: 0.9  # Master of political and military intrigue
+  dan_8_25: 0.8  # Used propaganda and deception in diplomacy
+  dan_9_26_27: 0.0  # No specific connection to Israel covenants
+  dan_11_14: 0.6  # Several rebellions during his rule
+  dan_11_16_18: 0.5  # Some campaigns in Mediterranean coastal regions
+  dan_11_21: 0.8  # Rose unexpectedly from military to Emperor
+  dan_11_23: 0.8  # Initial support from small group of officers and politicians
+  dan_11_24: 0.8  # Redistributed wealth to loyal generals and officers
+  dan_11_28: 0.7  # Treatment of various peoples in conquered territories
+  dan_11_29_33: 0.4  # Some actions against Pope and Church properties
+  dan_11_32: 0.6  # Resistance in Spain and Russia had religious elements
+  dan_11_33: 0.6  # Opposition faced harsh military response
+  dan_11_36: 0.8  # Portrayed himself as above traditional authority
+  dan_11_37: 0.7  # Pragmatic approach to religion, not traditionally devout
+  dan_11_39: 0.9  # Created new nobility and rewarded loyal supporters
+  dan_11_40: 0.7  # Conflicts with nations to south (Spain, Egypt)
+  dan_11_44: 0.8  # Russian campaign partly triggered by concerns from east
+  dan_12_7: 0.0  # No parallel to Christian power during reign
+  
+  # Other prophecies
+  2thess_2_3_4: 0.7  # Crowned himself Emperor in Pope's presence
+  2thess_2_9_10: 0.5  # Military genius seen as almost supernatural
+  1john_2_18: 0.5  # Considered a potential Antichrist by contemporaries
+  1john_2_22: 0.4  # Pragmatic about religion but didn't actively deny Christ
+  1john_4_3: 0.4  # Did not actively deny Jesus in theological sense
+  2john_1_7: 0.4  # Not specifically deceptive about Jesus
+  matt_24_24: 0.5  # Some Christians supported him despite papal opposition
+  matt_24_40_41: 0.6  # Mass conscription of men for Grande Armée
+  zech_11_16_17: 0.7  # Sacrificed millions in military campaigns
+  acts_2_17: 0.0  # No dream phenomena reported
+
+# Evidence examples for key prophecies
+evidence:
+  rev_6_2: "Led conquests across Europe, creating largest European empire since Rome"
+  rev_17_8: "Exiled to Elba ('was, is not') then returned for 100 days ('will come')"
+  dan_7_25: "Created Napoleonic Code, revolutionary legal system adopted across Europe"
+  dan_11_39: "Created new imperial nobility with titles and land grants to reward loyalty"

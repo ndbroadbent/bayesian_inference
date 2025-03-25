@@ -1,0 +1,84 @@
+# Xi Jinping analysis for Antichrist prophecies
+---
+name: "Xi Jinping"
+title: "General Secretary of the Chinese Communist Party and President of China"
+time_period: "2012-present"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.7  # "Chinese Dream" focused on national greatness
+  rev_6_6: 0.5  # Some economic pressures but generally strong economy
+  rev_8_10: 0.7  # COVID-19 pandemic originated in China
+  rev_13_1_2: 0.8  # Strong assertive rhetoric, especially regarding Taiwan
+  rev_13_3: 0.0  # No head wound survival
+  rev_13_4: 0.7  # Cult of personality reinforced by state media
+  rev_13_5_6: 0.8  # Anti-religious policies, "Xi Jinping Thought" above religion
+  rev_13_7: 0.8  # Authority over world's most populous nation
+  rev_13_8: 0.7  # Mandatory study of "Xi Jinping Thought"
+  rev_13_11_12: 0.1  # Anti-religious, no religious leader support
+  rev_13_13_15: 0.6  # Sophisticated propaganda operations
+  rev_13_16_17: 0.6  # Digital surveillance and social credit system
+  rev_13_18: 0.2  # No strong 666 connections claimed
+  rev_16_13_14: 0.7  # Growing influence over world leaders via Belt and Road
+  rev_17_3: 0.3  # No specific connection to seven hills/towers
+  rev_17_8: 0.5  # Gradual rise through party ranks
+  rev_17_9_11: 0.2  # Not specifically associated with seven mountains
+  rev_17_12_13: 0.8  # Strong support from CCP leadership
+  rev_17_15: 0.7  # China has many ethnic groups and languages
+  rev_17_16_17: 0.8  # Campaigns against religious institutions
+  rev_19_19_20: 0.0  # Still in power
+  
+  # Daniel prophecies
+  dan_7_8: 0.8  # Boastful about Chinese achievements
+  dan_7_20: 0.8  # Rhetoric about "Great Rejuvenation of the Chinese Nation"
+  dan_7_23: 0.8  # China as rising military superpower
+  dan_7_24: 0.7  # Rose among Party leadership
+  dan_7_25: 0.9  # Changed constitution to remove term limits
+  dan_8_23: 0.8  # Strategic and calculated leadership
+  dan_8_25: 0.7  # Some deceptive practices in international relations
+  dan_9_26_27: 0.3  # Limited connection to Israel
+  dan_11_14: 0.4  # No violent rebellion, rose through party ranks
+  dan_11_16_18: 0.2  # Limited involvement in Israel affairs
+  dan_11_21: 0.5  # Rose through party system, not a complete outsider
+  dan_11_23: 0.7  # Consolidated power through anti-corruption campaign
+  dan_11_24: 0.6  # Some wealth concentration among loyal supporters
+  dan_11_28: 0.8  # Treatment of Uyghurs and other minorities
+  dan_11_29_33: 0.8  # Destruction of churches, crosses, and mosques
+  dan_11_32: 0.6  # Some resistance to his rule
+  dan_11_33: 0.7  # Crackdown on dissidents and Hong Kong protesters
+  dan_11_36: 0.8  # Self-exaltation through "Xi Jinping Thought"
+  dan_11_37: 0.8  # Reinforces atheism, restrictions on religious practice
+  dan_11_39: 0.8  # Rewards loyal party members with positions
+  dan_11_40: 0.7  # South China Sea disputes
+  dan_11_44: 0.7  # Concerned about reports from democratic nations
+  dan_12_7: 0.7  # Christian persecution in China
+  
+  # Other prophecies
+  2thess_2_3_4: 0.7  # "Xi Jinping Thought" elevated to constitutional status
+  2thess_2_9_10: 0.6  # Consolidation of power through party mechanisms
+  1john_2_18: 0.5  # General positioning in modern era
+  1john_2_22: 0.8  # Promotes atheism as state policy
+  1john_4_3: 0.8  # Promotes atheism as state policy
+  2john_1_7: 0.6  # Some deceptive practices in international relations
+  matt_24_24: 0.2  # Anti-religious, not supported by Christians
+  matt_24_40_41: 0.7  # Separation of Uyghur families in Xinjiang
+  zech_11_16_17: 0.7  # Treatment of religious and ethnic minorities
+  acts_2_17: 0.3  # No unusual dream phenomena reported
+
+# Evidence examples for key prophecies
+evidence:
+  dan_7_25: "Changed Chinese constitution to remove presidential term limits"
+  rev_13_5_6: "Elevated 'Xi Jinping Thought' to constitutional status, above religious teachings"
+  dan_11_28: "Detention of Uyghur Muslims in Xinjiang region"
+  dan_11_29_33: "Campaign of church demolitions and cross removals in China"
+  rev_13_7: "Rules over 1.4 billion people with increasingly centralized authority"
+  rev_13_16_17: "Implementation of social credit system and surveillance technologies"
+  dan_7_20: "Promotes 'Great Rejuvenation of the Chinese Nation' in speeches"
+  rev_13_4: "Cult of personality including mandatory study of his writings"

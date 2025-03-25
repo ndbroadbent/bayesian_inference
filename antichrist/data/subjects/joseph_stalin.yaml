@@ -1,0 +1,81 @@
+# Joseph Stalin analysis for Antichrist prophecies
+---
+name: "Joseph Stalin"
+title: "General Secretary of the Communist Party of the Soviet Union"
+time_period: "1922-1953"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.8  # Extensive military conquests and expansionism
+  rev_6_6: 0.7  # Created famines while preserving resources for elite
+  rev_8_10: 0.0  # No major pandemic during rule
+  rev_13_1_2: 0.8  # Threatening rhetoric and leadership style
+  rev_13_3: 0.0  # No head wound survival
+  rev_13_4: 0.8  # Extensive cult of personality worship
+  rev_13_5_6: 0.9  # Actively blasphemed against God and religion
+  rev_13_7: 0.8  # Controlled much of Eastern Europe and Central Asia
+  rev_13_8: 0.8  # Enforced cult of personality worship
+  rev_13_11_12: 0.0  # Opposed by religious leaders
+  rev_13_13_15: 0.5  # Propaganda but not supernatural claims
+  rev_13_16_17: 0.7  # Membership cards, pins, symbols required
+  rev_13_18: 0.0  # No connection to 666
+  rev_16_13_14: 0.7  # Influenced world leaders through force/alliance
+  rev_17_3: 0.0  # Not associated with seven mountains/locations
+  rev_17_8: 0.0  # No "was, is not, will come" narrative
+  rev_17_9_11: 0.0  # Not associated with seven mountains
+  rev_17_12_13: 0.7  # Satellite states gave authority to USSR
+  rev_17_15: 0.8  # USSR was highly multicultural
+  rev_17_16_17: 0.9  # Actively destroyed religious institutions
+  rev_19_19_20: 0.0  # Died of natural causes, not defeated
+  
+  # Daniel prophecies
+  dan_7_8: 0.8  # Boastful speeches about Soviet power
+  dan_7_20: 0.7  # Rhetoric about Soviet greatness
+  dan_7_23: 0.9  # USSR as military superpower
+  dan_7_24: 0.7  # Rose among Bolshevik leadership
+  dan_7_25: 0.9  # Drastically changed laws, calendar, holidays
+  dan_8_23: 0.9  # Master of political intrigue
+  dan_8_25: 0.9  # State propaganda and deception
+  dan_9_26_27: 0.0  # No connection to Israel covenants
+  dan_11_14: 0.8  # Violent revolution and purges
+  dan_11_16_18: 0.0  # No focus on Israel coastal regions
+  dan_11_21: 0.8  # Rose unexpectedly through political maneuvering
+  dan_11_23: 0.9  # Rose with relatively small Communist party
+  dan_11_24: 0.8  # Seized wealth and redistributed to supporters
+  dan_11_28: 0.9  # Targeted specific ethnic and social groups
+  dan_11_29_33: 0.9  # Destroyed churches and religious sites
+  dan_11_32: 0.8  # Underground religious resistance to his rule
+  dan_11_33: 0.8  # Violent suppression of religious resistance
+  dan_11_36: 0.9  # Replaced God with self-worship
+  dan_11_37: 0.9  # Rejected traditional Russian religious values
+  dan_11_39: 0.9  # Rewarded Communist loyalists with positions
+  dan_11_40: 0.5  # Some conflicts with southern nations
+  dan_11_44: 0.6  # Paranoia about threats from within/without
+  dan_12_7: 0.0  # Christians persecuted, not in power
+  
+  # Other prophecies
+  2thess_2_3_4: 0.9  # Promoted atheism and self-worship
+  2thess_2_9_10: 0.6  # Deceptive propaganda
+  1john_2_18: 0.7  # Historically considered antichrist-like
+  1john_2_22: 0.9  # Officially denied Christ/God
+  1john_4_3: 0.9  # State atheism denied Jesus
+  2john_1_7: 0.9  # Promoted atheist deception
+  matt_24_24: 0.7  # Many believers deceived by Communist ideology
+  matt_24_40_41: 0.8  # Mass deportations to gulags
+  zech_11_16_17: 0.9  # Caused intentional famines, persecuted vulnerable
+  acts_2_17: 0.0  # No dream phenomena reported
+
+# Evidence examples for key prophecies
+evidence:
+  rev_13_5_6: "Led vigorous anti-religious campaigns, closed 40,000+ churches, promoted militant atheism"
+  dan_7_25: "Changed Russian calendar, abolished religious holidays, created new Soviet legal system"
+  dan_11_28: "Targeted kulaks, Ukrainians (Holodomor), various ethnic minorities for persecution"
+  matt_24_40_41: "Mass deportations to gulags across the Soviet Union, estimated 18+ million people"
+  rev_17_16_17: "Systematic destruction of religious institutions, confiscation of church property"

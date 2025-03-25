@@ -1,0 +1,80 @@
+# Vladimir Putin analysis for Antichrist prophecies
+---
+name: "Vladimir Putin"
+title: "President of Russia"
+time_period: "2000-2008, 2012-present"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.7  # Military actions in Georgia, Crimea, Ukraine
+  rev_6_6: 0.5  # Economic sanctions and counter-sanctions
+  rev_8_10: 0.5  # COVID-19 pandemic during presidency
+  rev_13_1_2: 0.8  # Threatening rhetoric toward opponents
+  rev_13_3: 0.0  # No head wound survival
+  rev_13_4: 0.7  # Strong cult of personality
+  rev_13_5_6: 0.6  # Uses Orthodox Church while maintaining personal authority
+  rev_13_7: 0.6  # Regional influence over neighboring states
+  rev_13_8: 0.6  # High approval ratings and personality cult
+  rev_13_11_12: 0.7  # Support from Russian Orthodox Church leadership
+  rev_13_13_15: 0.5  # State propaganda portrays strength and power
+  rev_13_16_17: 0.5  # "Z" symbol and pro-war symbols in Ukraine conflict
+  rev_13_18: 0.0  # No connection to 666
+  rev_16_13_14: 0.7  # Influence on various world leaders
+  rev_17_3: 0.0  # Not associated with seven mountains/locations
+  rev_17_8: 0.6  # Political resurrection after Yeltsin era
+  rev_17_9_11: 0.0  # Not associated with seven mountains
+  rev_17_12_13: 0.7  # Influence over several post-Soviet states
+  rev_17_15: 0.8  # Russia is highly multicultural
+  rev_17_16_17: 0.3  # Officially supports Church but maintains control
+  rev_19_19_20: 0.0  # Not yet defeated and thrown into fire
+  
+  # Daniel prophecies
+  dan_7_8: 0.7  # Boastful speech, especially regarding Russian power
+  dan_7_20: 0.7  # Rhetoric about Russian greatness and restoration
+  dan_7_23: 0.7  # Russia as military power
+  dan_7_24: 0.8  # Rose among post-Soviet leadership
+  dan_7_25: 0.7  # Changed Russian laws significantly
+  dan_8_23: 0.9  # Master of political intrigue and intelligence background
+  dan_8_25: 0.8  # Information warfare and deception
+  dan_9_26_27: 0.4  # Some involvement in Middle East, Syria
+  dan_11_14: 0.4  # Suppressed various protests and opposition
+  dan_11_16_18: 0.5  # Military operations in Syria and Mediterranean
+  dan_11_21: 0.7  # Rose unexpectedly from intelligence services
+  dan_11_23: 0.7  # Rose with relatively small group of supporters
+  dan_11_24: 0.8  # Wealth distribution to loyal oligarchs
+  dan_11_28: 0.6  # Actions against specific groups (Chechens, others)
+  dan_11_29_33: 0.4  # Some actions against religious minorities
+  dan_11_32: 0.5  # Some religious resistance to policies
+  dan_11_33: 0.5  # Opposition faced legal and physical threats
+  dan_11_36: 0.7  # Projects himself as ultimate authority
+  dan_11_37: 0.3  # Publicly supports Orthodox Christianity
+  dan_11_39: 0.9  # Rewards loyalists with positions and wealth
+  dan_11_40: 0.8  # Conflict with Ukraine to the south
+  dan_11_44: 0.7  # Concerns about NATO expansion from west
+  dan_12_7: 0.6  # Orthodox Church maintains power under his rule
+  
+  # Other prophecies
+  2thess_2_3_4: 0.6  # Positions himself as ultimate authority
+  2thess_2_9_10: 0.5  # Propaganda portrays exceptional abilities
+  1john_2_18: 0.4  # Some religious groups see him as antichrist-like
+  1john_2_22: 0.2  # Publicly supports Christianity
+  1john_4_3: 0.2  # Publicly acknowledges Jesus
+  2john_1_7: 0.2  # Not deceptive about Jesus specifically
+  matt_24_24: 0.5  # Some Christians support despite questionable actions
+  matt_24_40_41: 0.5  # Military conscription for Ukraine war
+  zech_11_16_17: 0.7  # Civilian casualties in military operations
+  acts_2_17: 0.3  # Some apocalyptic discourse during presidency
+
+# Evidence examples for key prophecies
+evidence:
+  dan_8_23: "Former KGB officer skilled in intelligence operations and political maneuvering"
+  dan_11_39: "Placed loyal oligarchs in control of key industries and resources"
+  dan_11_40: "Initiated military conflict with Ukraine to the south"
+  rev_13_11_12: "Received strong public support from Russian Orthodox Patriarch Kirill"

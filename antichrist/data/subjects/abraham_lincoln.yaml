@@ -1,0 +1,79 @@
+# Abraham Lincoln analysis for Antichrist prophecies
+---
+name: "Abraham Lincoln"
+title: "16th President of the United States"
+time_period: "1861-1865"
+
+# Prophecy fulfillment ratings
+# Each prophecy ID matches those in the prophecies YAML files
+# Rating scale: 0.0 to 1.0 where:
+# - 0.0: No evidence of fulfillment
+# - 0.5: Some evidence but inconclusive
+# - 1.0: Strong evidence of fulfillment
+
+prophecy_ratings:
+  # Revelation prophecies
+  rev_6_2: 0.3  # More focused on preserving union than conquering
+  rev_6_6: 0.5  # Civil War led to some economic disruption
+  rev_8_10: 0.0  # No major pandemic during presidency
+  rev_13_1_2: 0.2  # Not particularly threatening in rhetoric
+  rev_13_3: 0.0  # Died from assassination, did not survive
+  rev_13_4: 0.2  # Respected but not worshipped
+  rev_13_5_6: 0.0  # Known for humility and religious respect
+  rev_13_7: 0.3  # Limited to United States influence
+  rev_13_8: 0.1  # Admired but not worshipped
+  rev_13_11_12: 0.0  # Not supported by religious leaders in this way
+  rev_13_13_15: 0.0  # No counterfeit miracles or spectacle
+  rev_13_16_17: 0.0  # No mark for followers
+  rev_13_18: 0.0  # No connection to 666
+  rev_16_13_14: 0.1  # Limited international influence
+  rev_17_3: 0.0  # Not associated with seven mountains/locations
+  rev_17_8: 0.0  # No "was, is not, will come" narrative
+  rev_17_9_11: 0.0  # Not associated with seven mountains
+  rev_17_12_13: 0.2  # Political allies but not in this manner
+  rev_17_15: 0.3  # From multicultural United States
+  rev_17_16_17: 0.0  # Did not turn against religious institutions
+  rev_19_19_20: 0.0  # Not defeated and thrown into fire
+  
+  # Daniel prophecies
+  dan_7_8: 0.1  # Known for measured, thoughtful speech
+  dan_7_20: 0.0  # Did not emphasize "greatness" in rhetoric
+  dan_7_23: 0.3  # US was growing but not yet a superpower
+  dan_7_24: 0.0  # Not rising from among ten kings
+  dan_7_25: 0.2  # Some wartime changes to laws but limited
+  dan_8_23: 0.2  # Political skill but not deceptive intrigue
+  dan_8_25: 0.0  # Truth-focused, not deception
+  dan_9_26_27: 0.0  # No connection to Israel covenants
+  dan_11_14: 0.0  # Supporters did not stage violent rebellion
+  dan_11_16_18: 0.0  # No focus on Israel coastal regions
+  dan_11_21: 0.0  # Not a political outsider, rose through standard politics
+  dan_11_23: 0.0  # No secret alliance/collusion
+  dan_11_24: 0.0  # Did not distribute wealth to followers
+  dan_11_28: 0.0  # Fought against harm to specific groups (slavery)
+  dan_11_29_33: 0.0  # No armed clearance of holy places
+  dan_11_32: 0.0  # No resistance from true believers
+  dan_11_33: 0.0  # No resistance with education against him
+  dan_11_36: 0.0  # Humble attitude toward God
+  dan_11_37: 0.0  # Respected traditional religious values
+  dan_11_39: 0.0  # Merit-based appointments, not loyalty rewards
+  dan_11_40: 0.0  # No feud with southern leaders (tried reconciliation)
+  dan_11_44: 0.2  # Some concern about foreign intervention in Civil War
+  dan_12_7: 0.1  # Christians divided North/South during presidency
+  
+  # Other prophecies
+  2thess_2_3_4: 0.0  # Did not exalt himself above God
+  2thess_2_9_10: 0.0  # No counterfeit miracles
+  1john_2_18: 0.0  # Not considered an antichrist figure
+  1john_2_22: 0.0  # Did not deny Christ/Father
+  1john_4_3: 0.0  # Did not deny Jesus
+  2john_1_7: 0.0  # Not a deceiver regarding Jesus
+  matt_24_24: 0.0  # Did not deceive Christians
+  matt_24_40_41: 0.0  # No mass disappearance of workers during presidency
+  zech_11_16_17: 0.0  # Actively worked to help vulnerable (Emancipation)
+  acts_2_17: 0.0  # No reports of strange dreams during presidency
+
+# Evidence examples for key prophecies
+evidence:
+  dan_7_23: "United States was gaining power but not yet a global superpower"
+  rev_6_6: "Economic disruptions during Civil War, with shortages in the South"
+  zech_11_16_17: "Contrary to prophecy, worked to free slaves and help vulnerable populations"
