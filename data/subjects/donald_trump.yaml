@@ -12,73 +12,69 @@ time_period: "2016-2021, 2025-present"
 # - 1.0: Strong evidence of fulfillment
 
 prophecy_ratings:
-  # Revelation prophecies
-  rev_6_2: 0.8  # Campaign and rhetoric focused on "winning"
-  rev_6_6: 0.7  # Food supply chain issues during pandemic while oil prices crashed
-  rev_8_10: 0.7  # COVID-19 pandemic during presidency
-  rev_13_1_2: 0.8  # US power and threatening rhetoric
-  rev_13_3: 0.99  # Survived assassination attempt with gunshot to head/ear - extraordinary fulfillment
-  rev_13_4: 0.7  # Strong devoted following
-  rev_13_5_6: 0.8  # Boastful speech and religious claims
-  rev_13_7: 0.6  # US global influence
-  rev_13_8: 0.6  # Strong supporter devotion
-  rev_13_11_12: 0.8  # Evangelical leaders supporting him
-  rev_13_13_15: 0.4  # Some claims of miracles by supporters
-  rev_13_16_17: 0.4  # MAGA hats act like a forehead mark but commerce is still open to everyone
-  rev_13_18: 0.3  # Tenuous numerological connections
-  rev_16_13_14: 0.5  # Some influence over world leaders
-  rev_17_3: 0.8  # Seven Trump Towers/buildings
-  rev_17_8: 0.7  # Political comeback after defeat
-  rev_17_9_11: 0.6  # Connection to towers/buildings, not hills
-  rev_17_12_13: 0.6  # Support from political figures
-  rev_17_15: 0.7  # From multicultural New York
-  rev_17_16_17: 0.5  # Some conflicts with religious institutions
-  rev_19_19_20: 0.0  # Not defeated in this manner
-  
-  # Daniel prophecies
-  dan_7_8: 0.8  # Boastful speech
-  dan_7_20: 0.9  # "Great" and "Greater" rhetoric (MAGA)
-  dan_7_23: 0.8  # US as military superpower
-  dan_7_24: 0.3  # Political rise not matching prophecy
-  dan_7_25: 0.7  # Attempted to change election timing/laws
-  dan_8_23: 0.6  # Political strategy
-  dan_8_25: 0.8  # "Fake news" rhetoric
-  dan_9_26_27: 0.6  # Support for controversial Israeli actions
-  dan_11_14: 0.9  # January 6th insurrection
-  dan_11_16_18: 0.6  # Interest in Israel coastal regions
-  dan_11_21: 0.8  # Political outsider with unexpected win
-  dan_11_23: 0.6  # Won with minority of popular vote
-  dan_11_24: 0.7  # Business profits during presidency
-  dan_11_28: 0.7  # Border policies affecting migrants
-  dan_11_29_33: 0.8  # Church photo op after clearing protesters
-  dan_11_32: 0.7  # "Resistance" movement formed
-  dan_11_33: 0.7  # Protests during presidency
-  dan_11_36: 0.7  # Self-exaltation in rhetoric
-  dan_11_37: 0.4  # Ambiguous religious attitudes
-  dan_11_39: 0.7  # Appointed supporters to positions
-  dan_11_40: 0.8  # Conflict with Mexico over border
-  dan_11_44: 0.8  # Anger at negative media reports
-  dan_12_7: 0.7  # Evangelical political power during presidency
-  
-  # Other prophecies
-  2thess_2_3_4: 0.6  # Some self-exaltation
-  2thess_2_9_10: 0.5  # Surprising political rise
-  1john_2_18: 0.5  # General antichrist characteristics
-  1john_2_22: 0.4  # Professed Christianity
-  1john_4_3: 0.4  # Professed Christianity
-  2john_1_7: 0.5  # Accusations of deception
-  matt_24_24: 0.7  # Strong Christian support despite controversies
-  matt_24_40_41: 0.6  # ICE deportations of workers
-  zech_11_16_17: 0.7  # COVID response prioritizing economy
-  acts_2_17: 0.6  # Reports of vivid dreams during pandemic
+  rev_6_2: 0.80 # Trump’s win-obsessed rhetoric sets the tone for wider 2020s politics
+  rev_6_6: 0.70 # Food/energy shocks with oil profits preserved during inflation spikes
+  rev_8_10: 0.70 # COVID aftermath plus new pathogen scares keep “bitter waters” imagery alive
+  rev_13_1_2: 0.80 # Populist-nationalist governance framed as lion-like strength
+  rev_13_3: 0.99 # July 2024 head wound recovery becomes central miracle narrative
+  rev_13_4: 0.70 # “Who is like him?” fan rhetoric spans Trump + allied movements
+  rev_13_5_6: 0.80 # Sacralized boasts/blasphemies dominate rallies and media hits
+  rev_13_7: 0.60 # U.S./Sino blocs project authority over most peoples and regions
+  rev_13_8: 0.60 # Massive devotion from MAGA plus techno-utopian cult followings
+  rev_13_11_12: 0.80 # Evangelical and Religious Zionist leaders sell the program worldwide
+  rev_13_13_15: 0.60 # Musk’s rockets, Starlink, Optimus demos serve as “fire/sign” spectacles
+  rev_13_16_17: 0.50 # MAGA marks + biometric/payments pilots hint at control but commerce still open
+  rev_13_18: 0.30 # 666 numerology tied to Trump branding and meme culture
+  rev_16_13_14: 0.50 # Propaganda spirits assembling authoritarian coalitions
+  rev_17_3: 0.80 # Seven Trump towers + Riyadh mega-project skylines as blasphemous “heads”
+  rev_17_8: 0.70 # Comeback arc (“was, is not, yet is”) fuels global fascination
+  rev_17_9_11: 0.60 # Seven-hill motif mapped to tower portfolio + allied capitals
+  rev_17_12_13: 0.60 # Tech billionaires, Gulf royals, and nationalist leaders hand over power
+  rev_17_15: 0.70 # New York, Silicon Valley, Riyadh roots = multitudes and languages
+  rev_17_16_17: 0.50 # Periodic clashes with legacy churches once usefulness fades
+  rev_19_19_20: 0.0 # Final defeat still future
 
-# Evidence examples for key prophecies
+  dan_7_8: 0.80 # Boastful little-horn speech saturates politics and media
+  dan_7_20: 0.90 # “Great” / “Greater” slogans define the movement’s identity
+  dan_7_23: 0.80 # U.S. superpower footprint promises to crush opposition
+  dan_7_24: 0.40 # Insider maneuvers via courts and state legislatures
+  dan_7_25: 0.70 # Serious attempts to change election timing, certification, norms
+  dan_8_23: 0.60 # Master-class intrigue between populists and autocrats
+  dan_8_25: 0.80 # “Fake news” deception weaponized at scale
+  dan_9_26_27: 0.60 # Jerusalem/Temple bargaining paired with Mid-East deals
+  dan_11_14: 0.90 # Violent factions (Jan 6 & imitators) try to seize rule and fail
+  dan_11_16_18: 0.60 # Territorial bargaining over Gaza/Red Sea corridors
+  dan_11_21: 0.80 # Business/influencer outsiders (Trump, Musk, MrBeast) enter governance
+  dan_11_23: 0.60 # Slim coalition wins amplified by foreign media/cash networks
+  dan_11_24: 0.70 # Patronage pipelines reward donors and loyal media stars
+  dan_11_28: 0.70 # Deportation and population-transfer schemes harm the flock
+  dan_11_29_33: 0.80 # Armed forces clear sacred spaces for photo ops and broadcasts
+  dan_11_32: 0.70 # Opposition framed as “lawless” resistance needing suppression
+  dan_11_33: 0.70 # Protest martyrs fuel online lore yet receive little aid
+  dan_11_36: 0.70 # Leaders exalt themselves above constitutions and clergy
+  dan_11_37: 0.40 # Transactional faith claims with little genuine devotion
+  dan_11_39: 0.70 # Wealth transfers to oligarchs/investors backing the beast system
+  dan_11_40: 0.80 # Border/maritime clashes (Mexico, Red Sea, Taiwan) used politically
+  dan_11_44: 0.80 # Fury at leaks, indictments, and hostile press narratives
+  dan_12_7: 0.70 # Evangelical/Orthodox blocs deeply entangled with regime power
+
+  2thess_2_3_4: 0.60 # Courts and rallies portray the leader as divinely appointed savior
+  2thess_2_9_10: 0.60 # Viral “signs and wonders” (rockets, AI stunts, endurance games)
+  1john_2_18: 0.50 # Many antichrist figures claim exclusive access to truth
+  1john_2_22: 0.40 # Public confessions of faith mask utilitarian theology
+  1john_4_3: 0.40 # Performative Christianity hides dragon-like speech
+  2john_1_7: 0.50 # Disinformation ecosystems deny inconvenient realities
+  matt_24_24: 0.70 # False prophets/influencers deceive even the devout
+  matt_24_40_41: 0.60 # Deportation sweeps/AI hiring divide pairs in daily life
+  zech_11_16_17: 0.70 # Shepherds prioritizing profit over the dying/lame
+  acts_2_17: 0.60 # TikTok/revival visions fixate on 2024-2025 wars, AI, elections
+
 evidence:
-  rev_13_3: "Survived assassination attempt on July 13, 2024 with a bullet wound to his ear/head"
-  rev_13_5_6: "Claimed 'nobody has done more for Christianity or for evangelicals' than him; used God's name inappropriately"
-  dan_7_20: "Make America Great Again slogan directly references greatness"
-  dan_11_21: "First US president with no prior political or military experience"
-  dan_11_14: "January 6, 2021 Capitol insurrection by supporters"
-  dan_11_29_33: "June 1, 2020 clearing of protesters at Lafayette Square for Bible photo op"
-  rev_13_16_17: "MAGA hats worn prominently on foreheads by followers"
-  rev_17_3: "Trump Tower (NY), Trump International Hotel & Tower (Chicago), Trump World Tower, Trump Tower (White Plains), Trump Parc, Trump Park Avenue, and Trump Palace Condominiums"
+  rev_13_3: "July 2024 assassination attempt where a bullet ripped through Trump’s ear became an instant 'fatal wound healed' meme."
+  rev_13_13_15: "Elon Musk’s Falcon boosters, Starlink sky-trains, and xAI/Optimus demos deliver literal fire-from-heaven visuals and speaking images."
+  rev_13_16_17: "MAGA hats/flags act as voluntary marks while X payments, CBID, and Saudi biometric pilots beta-test commerce control layers."
+  rev_17_12_13: "Trump, Saudi royals, and Musk align on media, oil, and giga-projects, pooling authority for joint ventures."
+  dan_11_14: "Fallout from the 6 January 2021 attack plus state-level plots shows violent factions trying to secure rule through intrigue."
+  dan_11_28: "Hardline immigration raids and Gaza depopulation plans mirror the shepherd who devours the flock."
+  matt_24_24: "Influencers mixing prophecy, AI doom, and political endorsements sell themselves as truth tellers while gaming engagement algorithms."
+  acts_2_17: "Large swaths of TikTok/revival culture focus on dreams and visions about 2024–2025 elections, AI, and war."

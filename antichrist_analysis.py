@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import yaml
 
-TOP_PROPHECY_COUNT = 50
+TOP_PROPHECY_COUNT = 100
 
 
 class AntichristAnalysis:
@@ -219,7 +219,12 @@ class AntichristAnalysis:
             prob_str = f"{prob:.2%}"
 
         print(f"\n=== {subject_name} ({subject['title']}, {subject['time_period']}) ===")
-        print(f"Prior Probability: {self.prior:.6%}")
+        if self.prior >= 0.0001:
+            prior_str = f"{self.prior:.4%}"
+        else:
+            prior_str = f"{(self.prior * 100):.9f}".rstrip('0').rstrip('.') + "%"
+        odds_str = f"1 in {1/self.prior:,.0f}" if self.prior > 0 else "N/A"
+        print(f"Prior Probability: {prior_str} ({odds_str})")
         print(f"Prophecy Coverage: {result['prophecy_coverage']:.0%} of all prophecies")
         print(f"Log10 Likelihood Ratio: {result['log_likelihood_ratio']:.1f}")
         print(
@@ -505,8 +510,8 @@ class AntichristAnalysis:
 
 def main():
     parser = argparse.ArgumentParser(description='Antichrist Bayesian Analysis Tool')
-    parser.add_argument('--prior', type=float, default=1e-6,
-                        help='Prior probability (default: 1e-6, one in a million)')
+    parser.add_argument('--prior', type=float, default=1e-9,
+                        help='Prior probability (default: 1e-9, one in a billion)')
     parser.add_argument('--subjects', nargs='+',
                         help='List of subjects to analyze (default: all)')
     parser.add_argument('--plot', action='store_true',
