@@ -143,7 +143,7 @@ class AntichristAnalysis:
         posterior_probability = posterior_odds / (1 + posterior_odds)
 
         # Sort prophecies by LR to find strongest matches
-        top_prophecies = sorted(prophecy_lrs.items(), key=lambda x: x[1], reverse=True)[:10]
+        top_prophecies = sorted(prophecy_lrs.items(), key=lambda x: x[1], reverse=True)[:30]
 
         # Store results
         self.results[subject_name] = {
@@ -222,7 +222,7 @@ class AntichristAnalysis:
         print(f"This means the evidence is {10**result['log_likelihood_ratio']:.0e} times more likely if {subject_name} is the Antichrist")
         print(f"Posterior Probability: {prob_str}")
 
-        print("\nTop 10 matching prophecies:")
+        print("\nTop 30 matching prophecies:")
         for prophecy_id, lr in result['top_prophecies']:
             if prophecy_id in self.prophecies:
                 prophecy = self.prophecies[prophecy_id]
