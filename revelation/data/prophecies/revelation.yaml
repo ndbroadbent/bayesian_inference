@@ -62,7 +62,7 @@
   description: "The Antichrist will have authority over every tribe, people, language and nation"
   bayesian:
     P_H: 0.9  # If someone is the Antichrist, 90% chance they have wide global authority
-    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they have wide global authority
+    P_notH: 0.3  # If someone is NOT the Antichrist, 30% chance they have wide global authority
 
 - id: rev_13_8
   reference: "Revelation 13:8"
@@ -70,7 +70,7 @@
   description: "The Antichrist will be worshipped by many people around the world"
   bayesian:
     P_H: 0.85  # If someone is the Antichrist, 85% chance they're worshipped globally
-    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they're worshipped globally
+    P_notH: 0.25  # If someone is NOT the Antichrist, 25% chance they're worshipped globally
 
 - id: rev_13_11_12
   reference: "Revelation 13:11-12"
@@ -85,8 +85,8 @@
   text: "It performs great signs, even making fire come down from heaven to earth in front of people, and by the signs that it is allowed to work in the presence of the beast it deceives those who dwell on earth, telling them to make an image for the beast that was wounded by the sword and yet lived. And it was allowed to give breath to the image of the beast, so that the image of the beast might even speak and might cause those who would not worship the image of the beast to be slain."
   description: "The Antichrist will use counterfeit miracles, signs and wonders to deceive people"
   bayesian:
-    P_H: 0.85  # If someone is the Antichrist, 85% chance they use spectacle to deceive
-    P_notH: 0.2  # If someone is NOT the Antichrist, 20% chance they use spectacle to deceive
+    P_H: 0.8  # If someone is the Antichrist, 80% chance they use spectacle to deceive
+    P_notH: 0.35  # If someone is NOT the Antichrist, 35% chance they use spectacle to deceive
 
 - id: rev_13_16_17
   reference: "Revelation 13:16-17"
@@ -94,7 +94,7 @@
   description: "The Antichrist's followers will wear a mark on their foreheads or hands required for commerce"
   bayesian:
     P_H: 0.9  # If someone is the Antichrist, 90% chance followers have identifying mark
-    P_notH: 0.1  # If someone is NOT the Antichrist, 10% chance followers have identifying mark
+    P_notH: 0.2  # Raise baseline to reflect voluntary branding trends
 
 - id: rev_13_18
   reference: "Revelation 13:18"

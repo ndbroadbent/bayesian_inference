@@ -22,6 +22,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import yaml
 
+TOP_PROPHECY_COUNT = 50
+
+
 class AntichristAnalysis:
     def __init__(self, data_dir="data", prior_probability=1e-6):
         """Initialize the analysis tool with data directory and prior probability."""
@@ -143,7 +146,7 @@ class AntichristAnalysis:
         posterior_probability = posterior_odds / (1 + posterior_odds)
 
         # Sort prophecies by LR to find strongest matches
-        top_prophecies = sorted(prophecy_lrs.items(), key=lambda x: x[1], reverse=True)[:30]
+        top_prophecies = sorted(prophecy_lrs.items(), key=lambda x: x[1], reverse=True)[:TOP_PROPHECY_COUNT]
 
         # Store results
         self.results[subject_name] = {
@@ -219,10 +222,14 @@ class AntichristAnalysis:
         print(f"Prior Probability: {self.prior:.6%}")
         print(f"Prophecy Coverage: {result['prophecy_coverage']:.0%} of all prophecies")
         print(f"Log10 Likelihood Ratio: {result['log_likelihood_ratio']:.1f}")
-        print(f"This means the evidence is {10**result['log_likelihood_ratio']:.0e} times more likely if {subject_name} is the Antichrist")
+        print(
+            "This means the evidence is "
+            f"{10**result['log_likelihood_ratio']:.0e} times more likely if {subject_name} "
+            "matches the prophetic-hypothesis profile than if it does not"
+        )
         print(f"Posterior Probability: {prob_str}")
 
-        print("\nTop 30 matching prophecies:")
+        print(f"\nTop {TOP_PROPHECY_COUNT} matching prophecies:")
         for prophecy_id, lr in result['top_prophecies']:
             if prophecy_id in self.prophecies:
                 prophecy = self.prophecies[prophecy_id]

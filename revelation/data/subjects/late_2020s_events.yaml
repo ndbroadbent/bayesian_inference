@@ -3,73 +3,73 @@
 # Elon Musk's platform/AI empire building, and MrBeast's Middle Eastern
 # partnerships as one "event stack" to compare against historical baselines.
 ---
-name: "Late 2020s Event Stack"
+name: "2020s Events (Trump, Musk, etc.)"
 title: "Populist politics + AI spectacle"
 time_period: "2023-2025"
 
 prophecy_ratings:
-  rev_6_2: 0.80   # Trump’s win-obsessed rhetoric sets the tone for wider 2020s politics
-  rev_6_6: 0.70   # Food/energy shocks with oil profits preserved during inflation spikes
-  rev_8_10: 0.70  # COVID aftermath plus new pathogen scares keep “bitter waters” imagery alive
-  rev_13_1_2: 0.80  # Populist-nationalist governance framed as lion-like strength
-  rev_13_3: 0.99  # July 2024 head wound recovery becomes central miracle narrative
-  rev_13_4: 0.70  # “Who is like him?” fan rhetoric spans Trump + allied movements
-  rev_13_5_6: 0.80  # Sacralized boasts/blasphemies dominate rallies and media hits
-  rev_13_7: 0.60  # U.S./Sino blocs project authority over most peoples and regions
-  rev_13_8: 0.60  # Massive devotion from MAGA plus techno-utopian cult followings
-  rev_13_11_12: 0.80  # Evangelical and Religious Zionist leaders sell the program worldwide
-  rev_13_13_15: 0.60  # Musk’s rockets, Starlink, Optimus demos serve as “fire/sign” spectacles
-  rev_13_16_17: 0.80  # MAGA marks + biometric/payments pilots enforce in-group commerce cues
-  rev_13_18: 0.30  # 666 numerology tied to Trump branding and meme culture
-  rev_16_13_14: 0.50  # Propaganda spirits assembling authoritarian coalitions
-  rev_17_3: 0.80  # Seven Trump towers + Riyadh mega-project skylines as blasphemous “heads”
-  rev_17_8: 0.70  # Comeback arc (“was, is not, yet is”) fuels global fascination
-  rev_17_9_11: 0.60  # Seven-hill motif mapped to tower portfolio + allied capitals
-  rev_17_12_13: 0.60  # Tech billionaires, Gulf royals, and nationalist leaders hand over power
-  rev_17_15: 0.70  # New York, Silicon Valley, Riyadh roots = multitudes and languages
-  rev_17_16_17: 0.50  # Periodic clashes with legacy churches once usefulness fades
-  rev_19_19_20: 0.0   # Final defeat still future
+  rev_6_2: 0.80 # Trump’s win-obsessed rhetoric sets the tone for wider 2020s politics
+  rev_6_6: 0.70 # Food/energy shocks with oil profits preserved during inflation spikes
+  rev_8_10: 0.70 # COVID aftermath plus new pathogen scares keep “bitter waters” imagery alive
+  rev_13_1_2: 0.80 # Populist-nationalist governance framed as lion-like strength
+  rev_13_3: 0.99 # July 2024 head wound recovery becomes central miracle narrative
+  rev_13_4: 0.70 # “Who is like him?” fan rhetoric spans Trump + allied movements
+  rev_13_5_6: 0.80 # Sacralized boasts/blasphemies dominate rallies and media hits
+  rev_13_7: 0.60 # U.S./Sino blocs project authority over most peoples and regions
+  rev_13_8: 0.60 # Massive devotion from MAGA plus techno-utopian cult followings
+  rev_13_11_12: 0.80 # Evangelical and Religious Zionist leaders sell the program worldwide
+  rev_13_13_15: 0.60 # Musk’s rockets, Starlink, Optimus demos serve as “fire/sign” spectacles
+  rev_13_16_17: 0.50 # MAGA marks + biometric/payments pilots hint at control but commerce still open
+  rev_13_18: 0.30 # 666 numerology tied to Trump branding and meme culture
+  rev_16_13_14: 0.50 # Propaganda spirits assembling authoritarian coalitions
+  rev_17_3: 0.80 # Seven Trump towers + Riyadh mega-project skylines as blasphemous “heads”
+  rev_17_8: 0.70 # Comeback arc (“was, is not, yet is”) fuels global fascination
+  rev_17_9_11: 0.60 # Seven-hill motif mapped to tower portfolio + allied capitals
+  rev_17_12_13: 0.60 # Tech billionaires, Gulf royals, and nationalist leaders hand over power
+  rev_17_15: 0.70 # New York, Silicon Valley, Riyadh roots = multitudes and languages
+  rev_17_16_17: 0.50 # Periodic clashes with legacy churches once usefulness fades
+  rev_19_19_20: 0.0 # Final defeat still future
 
-  dan_7_8: 0.80   # Boastful little-horn speech saturates politics and media
-  dan_7_20: 0.90  # “Great” / “Greater” slogans define the movement’s identity
-  dan_7_23: 0.80  # U.S. superpower footprint promises to crush opposition
-  dan_7_24: 0.40  # Insider maneuvers via courts and state legislatures
-  dan_7_25: 0.70  # Serious attempts to change election timing, certification, norms
-  dan_8_23: 0.60  # Master-class intrigue between populists and autocrats
-  dan_8_25: 0.80  # “Fake news” deception weaponized at scale
-  dan_9_26_27: 0.60  # Jerusalem/Temple bargaining paired with Mid-East deals
-  dan_11_14: 0.90  # Violent factions (Jan 6 & imitators) try to seize rule and fail
-  dan_11_16_18: 0.60  # Territorial bargaining over Gaza/Red Sea corridors
-  dan_11_21: 0.80  # Business/influencer outsiders (Trump, Musk, MrBeast) enter governance
-  dan_11_23: 0.60  # Slim coalition wins amplified by foreign media/cash networks
-  dan_11_24: 0.70  # Patronage pipelines reward donors and loyal media stars
-  dan_11_28: 0.70  # Deportation and population-transfer schemes harm the flock
-  dan_11_29_33: 0.80  # Armed forces clear sacred spaces for photo ops and broadcasts
-  dan_11_32: 0.70  # Opposition framed as “lawless” resistance needing suppression
-  dan_11_33: 0.70  # Protest martyrs fuel online lore yet receive little aid
-  dan_11_36: 0.70  # Leaders exalt themselves above constitutions and clergy
-  dan_11_37: 0.40  # Transactional faith claims with little genuine devotion
-  dan_11_39: 0.70  # Wealth transfers to oligarchs/investors backing the beast system
-  dan_11_40: 0.80  # Border/maritime clashes (Mexico, Red Sea, Taiwan) used politically
-  dan_11_44: 0.80  # Fury at leaks, indictments, and hostile press narratives
-  dan_12_7: 0.70  # Evangelical/Orthodox blocs deeply entangled with regime power
+  dan_7_8: 0.80 # Boastful little-horn speech saturates politics and media
+  dan_7_20: 0.90 # “Great” / “Greater” slogans define the movement’s identity
+  dan_7_23: 0.80 # U.S. superpower footprint promises to crush opposition
+  dan_7_24: 0.40 # Insider maneuvers via courts and state legislatures
+  dan_7_25: 0.70 # Serious attempts to change election timing, certification, norms
+  dan_8_23: 0.60 # Master-class intrigue between populists and autocrats
+  dan_8_25: 0.80 # “Fake news” deception weaponized at scale
+  dan_9_26_27: 0.60 # Jerusalem/Temple bargaining paired with Mid-East deals
+  dan_11_14: 0.90 # Violent factions (Jan 6 & imitators) try to seize rule and fail
+  dan_11_16_18: 0.60 # Territorial bargaining over Gaza/Red Sea corridors
+  dan_11_21: 0.80 # Business/influencer outsiders (Trump, Musk, MrBeast) enter governance
+  dan_11_23: 0.60 # Slim coalition wins amplified by foreign media/cash networks
+  dan_11_24: 0.70 # Patronage pipelines reward donors and loyal media stars
+  dan_11_28: 0.70 # Deportation and population-transfer schemes harm the flock
+  dan_11_29_33: 0.80 # Armed forces clear sacred spaces for photo ops and broadcasts
+  dan_11_32: 0.70 # Opposition framed as “lawless” resistance needing suppression
+  dan_11_33: 0.70 # Protest martyrs fuel online lore yet receive little aid
+  dan_11_36: 0.70 # Leaders exalt themselves above constitutions and clergy
+  dan_11_37: 0.40 # Transactional faith claims with little genuine devotion
+  dan_11_39: 0.70 # Wealth transfers to oligarchs/investors backing the beast system
+  dan_11_40: 0.80 # Border/maritime clashes (Mexico, Red Sea, Taiwan) used politically
+  dan_11_44: 0.80 # Fury at leaks, indictments, and hostile press narratives
+  dan_12_7: 0.70 # Evangelical/Orthodox blocs deeply entangled with regime power
 
-  2thess_2_3_4: 0.60  # Courts and rallies portray the leader as divinely appointed savior
-  2thess_2_9_10: 0.60  # Viral “signs and wonders” (rockets, AI stunts, endurance games)
-  1john_2_18: 0.50  # Many antichrist figures claim exclusive access to truth
-  1john_2_22: 0.40  # Public confessions of faith mask utilitarian theology
-  1john_4_3: 0.40   # Performative Christianity hides dragon-like speech
-  2john_1_7: 0.50   # Disinformation ecosystems deny inconvenient realities
-  matt_24_24: 0.70  # False prophets/influencers deceive even the devout
-  matt_24_40_41: 0.60  # Deportation sweeps/AI hiring divide pairs in daily life
-  zech_11_16_17: 0.70  # Shepherds prioritizing profit over the dying/lame
-  acts_2_17: 0.60   # TikTok/revival visions fixate on 2024-2025 wars, AI, elections
+  2thess_2_3_4: 0.60 # Courts and rallies portray the leader as divinely appointed savior
+  2thess_2_9_10: 0.60 # Viral “signs and wonders” (rockets, AI stunts, endurance games)
+  1john_2_18: 0.50 # Many antichrist figures claim exclusive access to truth
+  1john_2_22: 0.40 # Public confessions of faith mask utilitarian theology
+  1john_4_3: 0.40 # Performative Christianity hides dragon-like speech
+  2john_1_7: 0.50 # Disinformation ecosystems deny inconvenient realities
+  matt_24_24: 0.70 # False prophets/influencers deceive even the devout
+  matt_24_40_41: 0.60 # Deportation sweeps/AI hiring divide pairs in daily life
+  zech_11_16_17: 0.70 # Shepherds prioritizing profit over the dying/lame
+  acts_2_17: 0.60 # TikTok/revival visions fixate on 2024-2025 wars, AI, elections
 
 evidence:
   rev_13_3: "July 2024 assassination attempt where a bullet ripped through Trump’s ear became an instant 'fatal wound healed' meme."
   rev_13_13_15: "Elon Musk’s Falcon boosters, Starlink sky-trains, and xAI/Optimus demos deliver literal fire-from-heaven visuals and speaking images."
   rev_13_16_17: "MAGA hats/flags act as voluntary marks while X payments, CBID, and Saudi biometric pilots beta-test commerce control layers."
-  rev_17_12_13: "Trump, Saudi royals, and Musk align on media, oil, and giga-projects, pooling authority for joint ventures." 
+  rev_17_12_13: "Trump, Saudi royals, and Musk align on media, oil, and giga-projects, pooling authority for joint ventures."
   dan_11_14: "Fallout from the 6 January 2021 attack plus state-level plots shows violent factions trying to secure rule through intrigue."
   dan_11_28: "Hardline immigration raids and Gaza depopulation plans mirror the shepherd who devours the flock."
   matt_24_24: "Influencers mixing prophecy, AI doom, and political endorsements sell themselves as truth tellers while gaming engagement algorithms."
