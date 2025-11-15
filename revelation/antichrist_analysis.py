@@ -16,11 +16,11 @@ Options:
 
 import argparse
 import math
-import os
-import yaml
 from pathlib import Path
+
 import matplotlib.pyplot as plt
 import numpy as np
+import yaml
 
 class AntichristAnalysis:
     def __init__(self, data_dir="data", prior_probability=1e-6):
@@ -28,6 +28,7 @@ class AntichristAnalysis:
         self.data_dir = Path(data_dir)
         self.prior = prior_probability
         self.prophecies = {}
+        self.prophecy_ids = []
         self.subjects = {}
         self.results = {}
 
@@ -49,6 +50,7 @@ class AntichristAnalysis:
                     self.prophecies[prophecy_id] = prophecy
 
         print(f"Loaded {len(self.prophecies)} prophecies")
+        self.prophecy_ids = sorted(self.prophecies.keys())
 
     def load_subjects(self):
         """Load all subject data from YAML files in the subjects directory."""
@@ -365,6 +367,135 @@ class AntichristAnalysis:
         plt.savefig('prophecy_heatmap.png')
         print("Prophecy heatmap saved as 'prophecy_heatmap.png'")
 
+    def _get_rating_vector(self, subject_name):
+        """Return a dense vector of prophecy ratings for a subject."""
+        subject = self.subjects[subject_name]
+        ratings = subject['prophecy_ratings']
+        return np.array([ratings.get(pid, 0.0) for pid in self.prophecy_ids], dtype=float)
+
+    @staticmethod
+    def _cosine_similarity(vec_a, vec_b):
+        """Compute cosine similarity between two vectors."""
+        norm_a = np.linalg.norm(vec_a)
+        norm_b = np.linalg.norm(vec_b)
+        if norm_a == 0 or norm_b == 0:
+            return 0.0
+        return float(np.dot(vec_a, vec_b) / (norm_a * norm_b))
+
+    def compute_scenario_analysis(self, target_name, reference_subjects=None):
+        """Compare a target scenario against historical baselines."""
+        if target_name not in self.subjects:
+            raise ValueError(f"Subject '{target_name}' not found")
+
+        if target_name not in self.results:
+            self.analyze_subject(target_name)
+
+        # Ensure we have results for all subjects we might reference as baseline
+        if not self.results or (reference_subjects and any(name not in self.results for name in reference_subjects)):
+            self.analyze_all_subjects()
+
+        if reference_subjects:
+            baseline_names = [name for name in reference_subjects if name != target_name and name in self.subjects]
+        else:
+            baseline_names = [name for name in self.subjects if name != target_name]
+
+        # Make sure baseline subjects have results
+        for name in baseline_names:
+            if name not in self.results:
+                self.analyze_subject(name)
+
+        baseline_names = [name for name in baseline_names if name in self.results]
+
+        if not baseline_names:
+            raise ValueError("No baseline subjects available for scenario analysis")
+
+        baseline_log_lrs = np.array([self.results[name]['log_likelihood_ratio'] for name in baseline_names], dtype=float)
+        target_log_lr = self.results[target_name]['log_likelihood_ratio']
+
+        mean_lr = float(np.mean(baseline_log_lrs))
+        std_lr = float(np.std(baseline_log_lrs, ddof=1)) if len(baseline_log_lrs) > 1 else 0.0
+        if std_lr == 0:
+            z_score = 0.0
+        else:
+            z_score = (target_log_lr - mean_lr) / std_lr
+
+        percentile = float(np.mean(baseline_log_lrs <= target_log_lr) * 100)
+
+        target_vec = self._get_rating_vector(target_name)
+        baseline_vectors = np.array([self._get_rating_vector(name) for name in baseline_names], dtype=float)
+        baseline_mean_vec = np.mean(baseline_vectors, axis=0)
+
+        similarities = []
+        for name in baseline_names:
+            sim = self._cosine_similarity(target_vec, self._get_rating_vector(name))
+            similarities.append((name, sim))
+        similarities.sort(key=lambda x: x[1], reverse=True)
+
+        differences = target_vec - baseline_mean_vec
+        outlier_indices = np.argsort(-differences)
+        top_outliers = []
+        for idx in outlier_indices[:10]:
+            diff = differences[idx]
+            if diff <= 0:
+                continue
+            prophecy_id = self.prophecy_ids[idx]
+            top_outliers.append({
+                'prophecy_id': prophecy_id,
+                'reference': self.prophecies[prophecy_id]['reference'],
+                'description': self.prophecies[prophecy_id]['description'],
+                'difference': float(diff),
+                'target_rating': float(target_vec[idx]),
+                'baseline_mean': float(baseline_mean_vec[idx])
+            })
+
+        return {
+            'target': target_name,
+            'log_lr': target_log_lr,
+            'baseline_mean': mean_lr,
+            'z_score': z_score,
+            'percentile': percentile,
+            'top_similar': similarities[:5],
+            'prophecy_outliers': top_outliers
+        }
+
+    def print_scenario_report(self, target_name, reference_subjects=None):
+        """Print a formatted scenario analysis report."""
+        try:
+            analysis = self.compute_scenario_analysis(target_name, reference_subjects)
+        except ValueError as exc:
+            print(str(exc))
+            return
+
+        if target_name not in self.results:
+            print(f"No results found for scenario '{target_name}'")
+            return
+
+        result = self.results[target_name]
+        prob = result['posterior_probability']
+        if prob > 0.1:
+            prob_str = f"{prob:.0%}"
+        elif prob > 0.01:
+            prob_str = f"{prob:.1%}"
+        else:
+            prob_str = f"{prob:.2%}"
+
+        print(f"\n=== Scenario Focus: {target_name} ===")
+        print(f"Posterior Probability (legacy metric): {prob_str}")
+        print(f"Log10 Likelihood Ratio: {analysis['log_lr']:.2f}")
+        print(f"Compared to historical baseline (mean {analysis['baseline_mean']:.2f}), this is a z-score of {analysis['z_score']:.2f} and sits in the {analysis['percentile']:.1f}th percentile.")
+
+        print("\nClosest historical analogs (cosine similarity):")
+        for name, sim in analysis['top_similar']:
+            print(f"  - {name}: {sim:.2f}")
+
+        if analysis['prophecy_outliers']:
+            print("\nProphecies where this scenario outpaces the historical mean:")
+            for item in analysis['prophecy_outliers'][:5]:
+                print(f"  - {item['reference']} ({item['prophecy_id']}): {item['description']}")
+                print(f"    Scenario rating {item['target_rating']:.2f} vs baseline {item['baseline_mean']:.2f} (Δ {item['difference']:.2f})")
+        else:
+            print("\nNo prophecies showed above-average fulfillment compared to the baseline.")
+
 def main():
     parser = argparse.ArgumentParser(description='Antichrist Bayesian Analysis Tool')
     parser.add_argument('--prior', type=float, default=1e-6,
@@ -373,13 +504,19 @@ def main():
                         help='List of subjects to analyze (default: all)')
     parser.add_argument('--plot', action='store_true',
                         help='Generate comparison plots')
+    parser.add_argument('--scenario',
+                        help='Subject name to treat as a scenario for coincidence analysis')
+    parser.add_argument('--scenario-baseline', nargs='+',
+                        help='Optional list of subject names to use as the baseline cohort')
 
     args = parser.parse_args()
 
     # Create and run the analysis
     analysis = AntichristAnalysis(prior_probability=args.prior)
 
+    analyzed_subset = False
     if args.subjects:
+        analyzed_subset = True
         for subject in args.subjects:
             analysis.analyze_subject(subject)
             analysis.print_results(subject)
@@ -389,6 +526,12 @@ def main():
 
     if args.plot:
         analysis.plot_comparison()
+
+    if args.scenario:
+        # Ensure we have baseline data (analyze all if we only processed a subset earlier)
+        if analyzed_subset:
+            analysis.analyze_all_subjects()
+        analysis.print_scenario_report(args.scenario, args.scenario_baseline)
 
 if __name__ == "__main__":
     main()

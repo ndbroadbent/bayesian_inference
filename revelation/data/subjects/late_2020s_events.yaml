@@ -1,0 +1,76 @@
+# Combined scenario for overlapping political, AI, and spectacle events clustered
+# between 2023 and the early months of 2025. This treats the Trump comeback,
+# Elon Musk's platform/AI empire building, and MrBeast's Middle Eastern
+# partnerships as one "event stack" to compare against historical baselines.
+---
+name: "Late 2020s Event Stack"
+title: "Populist politics + AI spectacle"
+time_period: "2023-2025"
+
+prophecy_ratings:
+  rev_6_2: 0.75   # Renewed zero-sum "win or lose" rhetoric in U.S./global politics
+  rev_6_6: 0.60   # Inflation spikes and supply shocks alongside resilient energy profits
+  rev_8_10: 0.40  # Lingering pandemics plus new pathogen scares
+  rev_13_1_2: 0.70  # Populist-nationalist governing style packaged as strongman rule
+  rev_13_3: 0.90  # Trump survives head wound in July 2024 and campaigns harder
+  rev_13_4: 0.55  # Personality-focused loyalty (“who is like him?” sentiment)
+  rev_13_5_6: 0.65  # Blasphemous boasts and sacralized rally language
+  rev_13_7: 0.50  # U.S./Sino influence fights span most regions
+  rev_13_8: 0.45  # Mass devotion from MAGA, techno-utopians, and spectacle fans
+  rev_13_11_12: 0.70  # Religious proxies (evangelicals, conservative rabbis) re-legitimize power
+  rev_13_13_15: 0.60  # Rockets, Starlink, xAI/Optimus demos as “signs” and speaking images
+  rev_13_16_17: 0.50  # Distinct marks/costumes plus biometric payment rails and bans
+  rev_13_18: 0.20  # Loose numerology around 666 memes
+  rev_16_13_14: 0.50  # Propaganda spirits rallying authoritarian partners
+  rev_17_3: 0.35  # Seven-branded towers and mega-project skylines featured in Trump/MBS deals
+  rev_17_8: 0.70  # Comeback narrative (“was, is not, yet is”) for 2024 race
+  rev_17_9_11: 0.25  # Tower-to-hill analogies remain speculative
+  rev_17_12_13: 0.60  # Tech billionaires and foreign royals pooling resources
+  rev_17_15: 0.60  # Cosmopolitan origin points (New York, Riyadh, Silicon Valley)
+  rev_17_16_17: 0.30  # Sporadic spats with historic churches
+  rev_19_19_20: 0.0   # Final defeat not observed
+
+  dan_7_8: 0.60   # Boastful horn rhetoric dominates news cycles
+  dan_7_20: 0.65  # “Greatness” slogans revived for electioneering
+  dan_7_23: 0.70  # Superpower militaries cast as guarantors of order
+  dan_7_24: 0.40  # Insider maneuvering via courts/state legislatures
+  dan_7_25: 0.50  # Talk of delaying certification and rewriting constitutional norms
+  dan_8_23: 0.55  # Cunning diplomacy with autocrats
+  dan_8_25: 0.60  # “Fake news” claims weaponized globally
+  dan_9_26_27: 0.55  # Escalating Middle East deals and temple access politics
+  dan_11_14: 0.75  # Ongoing fallout from 6 Jan 2021 plus copycat plots
+  dan_11_16_18: 0.50  # Territorial bargaining over Gaza/Red Sea routes
+  dan_11_21: 0.60  # Outsiders (businessmen, influencers) jumping into governance
+  dan_11_23: 0.55  # Coalition wins through slim margins + foreign amplification
+  dan_11_24: 0.65  # Patronage for donors and loyal media personalities
+  dan_11_28: 0.60  # Deportation/settler programs hitting vulnerable populations
+  dan_11_29_33: 0.60  # Militarized photo ops and holy-site pageantry
+  dan_11_32: 0.50  # Resistance coalitions centered on “rule of law” framing
+  dan_11_33: 0.50  # Protest martyr stories circulate online
+  dan_11_36: 0.60  # Leaders exalting themselves above institutions
+  dan_11_37: 0.30  # Selective religiosity with transactional faith appeals
+  dan_11_39: 0.65  # Wealth transfers to oligarchs/investors aligned with agenda
+  dan_11_40: 0.50  # Border wars and maritime standoffs
+  dan_11_44: 0.55  # Rage at leaks, indictments, and hostile press
+  dan_12_7: 0.45  # Evangelical and Orthodox blocs entangled with politics
+
+  2thess_2_3_4: 0.50  # Courts, rallies, and media framing leaders as saviors
+  2thess_2_9_10: 0.50  # Viral “signs” (AI, rockets, theme-park ordeals) sway crowds
+  1john_2_18: 0.40  # Many antichrist figures claim exclusive truth
+  1john_2_22: 0.30  # Public confessions of faith but pragmatic ethics
+  1john_4_3: 0.30   # Performative religious language masks power goals
+  2john_1_7: 0.50   # Large-scale disinformation ecosystems
+  matt_24_24: 0.55  # False prophets/influencers deceiving masses
+  matt_24_40_41: 0.60  # Deportation sweeps and AI-driven hiring decisions
+  zech_11_16_17: 0.60  # Leaders prioritizing GDP/markets over casualties
+  acts_2_17: 0.60   # Apocalyptic dreams/visions trending on TikTok + revival meetings
+
+evidence:
+  rev_13_3: "July 2024 assassination attempt where a bullet ripped through Trump’s ear became an instant 'fatal wound healed' meme."
+  rev_13_13_15: "Elon Musk’s Falcon boosters, Starlink sky-trains, and xAI/Optimus demos deliver literal fire-from-heaven visuals and speaking images."
+  rev_13_16_17: "MAGA hats/flags act as voluntary marks while X payments, CBID, and Saudi biometric pilots beta-test commerce control layers."
+  rev_17_12_13: "Trump, Saudi royals, and Musk align on media, oil, and giga-projects, pooling authority for joint ventures." 
+  dan_11_14: "Fallout from the 6 January 2021 attack plus state-level plots shows violent factions trying to secure rule through intrigue."
+  dan_11_28: "Hardline immigration raids and Gaza depopulation plans mirror the shepherd who devours the flock."
+  matt_24_24: "Influencers mixing prophecy, AI doom, and political endorsements sell themselves as truth tellers while gaming engagement algorithms."
+  acts_2_17: "Large swaths of TikTok/revival culture focus on dreams and visions about 2024–2025 elections, AI, and war."
